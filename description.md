@@ -3,7 +3,7 @@
 This file contains all the topics that are covered by the Open Education Hub methodology.
 Each topic in this file contains a small description and links to the files cover it more thouroughly.
 
-## Teaching stages
+## Teaching Stages
 
 ### Lectures
 ### Labs
@@ -17,17 +17,17 @@ Each topic in this file contains a small description and links to the files cove
 
 ## Infrastructure
 
-### Open source collaborative model
-#### Student contributions
-#### Teacher and assistants contributions
-#### Outsider contributions
+### Open Source Collaborative Model
+#### Student Contributions
+#### Teacher and Assistants Contributions
+#### Outsider Contributions
 
-### Third party (open) tools employed
-### Cryptocurrency rewards
+### Third Party (open) Tools Employed
+### Cryptocurrency Rewards
 
 
 
-## Student engagement
+## Student Engagement
 ### Interactivity
 ### Q&A
 
