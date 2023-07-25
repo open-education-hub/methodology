@@ -1,15 +1,15 @@
-# Methdology
+# Methodology
 
 The Open Education Hub methodology contains all of the guidelines for creating high quality, open source educational materials.
 The methodology describes the types of content, how the content is used in the various stages of teaching and the required infrastructure.
 All the educational content is open source and all of the used tools are either open source or free to use.
 
-## Types of content
+## Types of Content
 
 This chapter describes the various forms that the educational content may take form.
 Each section details how a specific type of content is to be developed, stored and used.
 
-### Text
+### Reading
 
 ### Media
 
@@ -18,6 +18,8 @@ Each section details how a specific type of content is to be developed, stored a
 ### Quizzes
 
 ### Drills
+
+### Tutorials
 
 ### Demos
 
@@ -30,13 +32,13 @@ Put differently, it shows how each content type is to be used in the various tea
 
 ### Lectures
 
-### Practical sessions
+### Practical Sessions
 
 ### Exams
 
 ### Assignments
 
-### Self Study
+### Self-Study
 
 ## Infrastructure
 
@@ -46,11 +48,11 @@ This chapter describes the various technologies used to develop, store, deploy a
 
 #### Student Contributions
 
-#### Teacher and Assistants Contributions
+#### Teacher Contributions
 
 #### Outsider Contributions
 
-### Third Party (open) Tools Employed
+### Third Party (Open) Tools Employed
 
 ### Cryptocurrency Rewards
 
