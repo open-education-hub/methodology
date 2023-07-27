@@ -1,0 +1,16 @@
+name: Linting Workflow
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  super-linter:
+    name: Super Linter
+    runs-on: ubuntu-latest
+    steps:
+      - name: Super Linter
+        uses: security-summer-school/actions/super-linter@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
