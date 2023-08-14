@@ -41,6 +41,7 @@ The purpose of the evaluation is mainly to provide feedback as opposed to gradin
 Instances of practical sessions are represented by lab sessions, seminars or workshops.
 The format of a practical session may include:
 
+- support material in the form of 
 - theoretical explanations and practical examples offered by the teacher
 - practical activities performed by the learners
 - debates and discussions between students and teacher or between students themselves regarding specific topics
@@ -55,32 +56,29 @@ Teacher preference, institutional recommendations and implementation specifics d
 As such, the educational materials used as support for the practical sessions should offer the flexibility of being tailored depending on the teacher's needs.
 At the same time, they should be usable in the absence of a teacher as standalone learning materials for self-taught individuals that want to learn by themselves.
 
-A practical session is comprised of a series of concepts that the learner must assimilate.
-A concept must contain:
+A practical session is comprised of a series of topics that the learner must assimilate.
+A topic must contain:
 
-- a brief theoretical description (which may contain links to broader explanations) by using reading, media, and, potentially, slide materials
-- one or more practical exemplifications of the described concept by using demos
-- one or more tutorials where the learner makes the first steps in applying the described concept
-- one or more quizzes regarding some aspects of what has been presented so far
-- one or more drills where the learner applies the presented concept
+- a brief theoretical description (which may contain links to broader explanations) by using [reading content](#reading), [media](#media), and, potentially, [slide](#slides) materials
+- one or more practical exemplifications of the described topic by using [demos](#demos)
+- one or more [tutorials](#tutorials) where the learner makes the first steps in applying the described topic
+- one or more [quizzes](#quizzes) regarding some aspects of what has been presented so far
+- one or more [drills](#drills) where the learner applies the presented topic
 
-There is no enforcement on the order in which the above content types should appear in the concept layout because that depends on the nature of the presented concept.
+There is no enforcement on the order in which the above content types should appear in the topic layout because that depends on the nature of the presented topic.
 However, we do recommend that the content types are mingled together so that the learner's attention is kept alive.
 For example, having a large theoretical description or a large demo may bore some students.
-To avoid that, quizzes, drills and tutorials may be sprinkled throught the concept layout to assure more engagement.
+To avoid that, quizzes, drills and tutorials may be sprinkled throught the topic layout to assure more engagement.
 
 Ideally, each practical activity (quiz, tutorial, drill) would be automatically evaluated and feedback would be instantly generated.
-For example, in computer programming courses, where drills and tutorials are typically comprised of writing programs, a checker should also accompany them.
+For example, in Computer Programming courses, drills and tutorials typically require the student to write programs.
+Checkers should accompany these activities to ensure automated verification.
 Quizzes, if employed, are automatically checked for correctness.
 Therefore, for humanitarian fields of study such as history or philosophy, we recommend using quizzes instead of drills as a form of practical activity.
 
-The number of concepts and the ordering in which the concepts are presented in a practical session is highly dependent on the nature of the field of study and the preference of the teacher.
+The number of topics and the ordering in which the topics are presented in a practical session is highly dependent on the nature of the field of study and the preference of the teacher.
 As a consequence, we do not have any recommendations regarding this aspect.
 However, if the content creator develops materials that have dependencies between them, this should be specified.
-
-Some teachers use slides to perform the brief theoretical description.
-Since this is a subjective choice, as content creators we do not provide slides for practical sessions.
-Rather, we create all of the concepts and it is up to the user to choose between them and create additional materials, such as slides.
 
 ### Exams
 
