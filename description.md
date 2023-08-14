@@ -41,7 +41,6 @@ The purpose of the evaluation is mainly to provide feedback as opposed to gradin
 Instances of practical sessions are represented by lab sessions, seminars or workshops.
 The format of a practical session may include:
 
-- support material in the form of 
 - theoretical explanations and practical examples offered by the teacher
 - practical activities performed by the learners
 - debates and discussions between students and teacher or between students themselves regarding specific topics
@@ -68,7 +67,7 @@ A topic must contain:
 There is no enforcement on the order in which the above content types should appear in the topic layout because that depends on the nature of the presented topic.
 However, we do recommend that the content types are mingled together so that the learner's attention is kept alive.
 For example, having a large theoretical description or a large demo may bore some students.
-To avoid that, quizzes, drills and tutorials may be sprinkled throught the topic layout to assure more engagement.
+To avoid that, quizzes, drills and tutorials may be sprinkled throught the topic layout to ensure more engagement.
 
 Ideally, each practical activity (quiz, tutorial, drill) would be automatically evaluated and feedback would be instantly generated.
 For example, in Computer Programming courses, drills and tutorials typically require the student to write programs.
