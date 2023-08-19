@@ -1,0 +1,1 @@
+Descrie rolurile care vor folosi această metodologie, cumva similare cu ce apare în diagrama de aici: https://drive.google.com/drive/u/0/folders/1dTv1OhdtyUKy4bymPdfNxB6BpgKxIIlo (documentul `OpenEdu - Workflows.drawio`)

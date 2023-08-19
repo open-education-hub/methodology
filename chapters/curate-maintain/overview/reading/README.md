@@ -1,0 +1,1 @@
+Descrie cum își va îndeplini rolul un maintainer de conținut în ceea ce privește versionarea conținutului, integrat contribuții, ținut evidența utilizatorilor conținutului, organizat discuții tematice
