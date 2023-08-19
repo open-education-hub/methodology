@@ -630,15 +630,34 @@ This goal can be accomplished by utilizing platforms to create dedicated channel
 
 #### Grading Assignments
 
-TODO
+The grading of assignments occurs once the hard deadline for submission has passed, meaning that no further submissions are accepted beyond that point.
+The existence of this hard deadline encourages students to manage their time and prioritize tasks.
+Introducing a soft deadline serves a similar purpose by introducing an early checkpoint and a chance for students to receive feedback before the final revision.
 
-- Using the automated checker (locally and remotely)
+Within the grading phase, an essential component is the plagiarism check.
+This important step prevents students from copying solutions from each other or external sources to ensure a fair academic environment.
+To ensure objectivity, this step should incorporate an automated check.
 
-- Soft and hard deadlines
+To address this concern, available public anti-plagiarism tools can be used.
+Whenever feasible, it's advisable to opt for specialized tools, such as [MOSS](https://theory.stanford.edu/~aiken/moss/) for code-centric assignments.
+However, there are instances when this isn't viable due to factors like the assignment's topic, open-ended nature, or the subject matter.
+In these cases, relying on text-similarity programs like [Turnitin](https://www.turnitin.com/) or [Grammarly](https://app.grammarly.com/) is a dependable strategy.
+Additionally, storing solutions of assignments that are used repeatedly improves the quality of the plagiarism check.
 
-- Anti-plagiarism check
+In the optimistic scenario where automated checking is possible for an assignment, the grading process entails rerunning solutions in a controlled environment.
+This can be done either collectively after all submissions are uploaded or, for a more effective approach, by setting up a submission system that evaluates each submission as it is uploaded.
+In the latter scenario, the grade for the assignment is the grade of the last submission.
+Putting this solution into practice involves utilizing external platforms like [GitLab](https://gitlab.com/), which enable the execution of actions based on specific events—such as submissions in our case.
+This prompt evaluation guarantees that students remain on the right track while tackling the assignment and that their solutions progressively improve.
+Moreover, the automated checker transforms homework assignments into valuable [self-study](#self-study) resources, given that the feedback is not dependent on human intervention.
 
-- Assignments without an automated checking
+However, the more typical scenario involves assignments that cannot be entirely automated.
+In such situations, one approach is to motivate students to submit their work ahead of time, granting more time for thorough grading of submissions.
+This encouragement can take an artificial form, such as offering bonus points, or a more organic one by providing timely feedback and allowing multiple submission attempts.
+Yet, the latter approach could potentially lead to a significantly heavier workload, especially if solutions are not built incrementally.
+
+To address this concern, the utilization of tools like [Google Docs](https://www.google.com/docs/about/) proves invaluable.
+These tools offer version history and the ability to highlight changes made between different revisions, significantly enhancing the overall quality and efficiency of the grading process.
 
 ### Self-Study
 
