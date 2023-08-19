@@ -15,3 +15,7 @@ SVG
 timespan
 TODO
 TutorWeb
+Turnitin
+Grammarly
+centric
+GitLab
