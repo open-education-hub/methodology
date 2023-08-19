@@ -47,11 +47,11 @@ When developing media items, it is important to follow the guidelines below:
 
 #### Images
 
-For the creation of images and diagrams we use [draw.io](httpts://draw.io).
+For the creation of images and diagrams we use [`draw.io`](httpts://draw.io).
 `draw.io` is a free, easy to use tool that offers a variety of useful icons and building blocks.
 Additionally, it is available in the browser, which makes it accessible on the majority of today's devices.
 The resulting images can be exported in different formats, such as PDF, PNG or SVG.
-When storing images, it is important that both the source file (with the extension `drawio` or `svg`) and the immutable output (PDF, PNG, JPG) are stored.
+When storing images, it is important that both the source file (with the extension `.drawio` or `.svg`) and the immutable output (PDF, PNG, JPG) are stored.
 By doing so, the potential users of the content can either use the image as is or modify it according to their needs.
 Note that other tools for the generation of images may be used as long as they are free and provide the source file.
 
@@ -69,7 +69,7 @@ Any device that can record at a decent quality is fine.
 There is a particular type of video that can be created without using a camera.
 By putting multiple similar images in a slideshow and automating the presentation, the video effect can be achieved.
 This sort of video is useful for educational material that presents processes or phenomenons step by step.
-To create such videos, we need to first create the images and then bundle them up using [ffmpeg](https://ffmpeg.org/).
+To create such videos, we need to first create the images and then bundle them up using [`ffmpeg`](https://ffmpeg.org/).
 In this situation the image source files, the actual images and the video need to be stored in the content repository.
 
 #### Interactive Applications
@@ -96,24 +96,24 @@ Slides should ideally have the following properties:
 - be easy to create by content developers
 - as with other Open Education Hub content types, allow easy improvements and contributions
 
-#### reveal-md
+#### `reveal-md`
 
-Our choice of engine for storing and rendering slides is [reveal-md](https://github.com/webpro/reveal-md).
-reveal-md is based on [reveal.js](https://revealjs.com/) and allows the development of web-rendered sleek slides.
+Our choice of engine for storing and rendering slides is [`reveal-md`](https://github.com/webpro/reveal-md).
+`reveal-md` is based on [`reveal.js`](https://revealjs.com/) and allows the development of web-rendered sleek slides.
 Moreover, as with other content types used at Open Education Hub, it uses Markdown format.
-reveal-md fits well with the properties above and, because it uses Markdown, it can be stored in a Git / GitHub repository and, thus, allows easy improvements and contributions.
+`reveal-md` fits well with the properties above and, because it uses Markdown, it can be stored in a Git / GitHub repository and, thus, allows easy improvements and contributions.
 
-TODO: features of reveal-md
+TODO: features of `reveal-md`
 links to documentation, syntax items
 
-To have modular contents for slides, we use [markdown-pp](https://github.com/amyreese/markdown-pp) (for Markdown Preprocessor).
-With markdown-pp we have an index file for slides;
+To have modular contents for slides, we use [`markdown-pp`](https://github.com/amyreese/markdown-pp) (for Markdown Preprocessor).
+With `markdown-pp` we have an index file for slides;
 the index file includes actual Markdown files representing sections.
 
-TODO: features of markdown-pp
+TODO: features of `markdown-pp`
 links to documentation
 
-potential items for the future, potential replacement of markdown-pp
+potential items for the future, potential replacement of `markdown-pp`
 
 #### Slide Directories
 
@@ -122,13 +122,13 @@ structure slides in directories as slide decks, following a structure / narrativ
 typical structure of slide directory:
 
 - `slides.mdpp`: actual slides
-- `slides/`: per section reveal-md Markdown files
+- `slides/`: per section `reveal-md` Markdown files
 - `Makefile`: generate output files (HTML, PDF)
-- `media/`: media files, as discussed in [`Media` section](#media)
+- `media/`: media files, as discussed in ["Media" section](#media)
 
 output files are:
 
-- `slides.md`: intermediary aggregated output file (after markdown-pp processing)
+- `slides.md`: intermediary aggregated output file (after `markdown-pp` processing)
 - `slides.pdf`: PDF output file
   to be viewed with PDF reader
 - `_site/`: HTML output
@@ -205,23 +205,23 @@ Out of the existing teaching platforms, a few highlights are:
 - [Moodle](https://moodle.org/) is a free open-source learning platform dedicated to course management.
   It supports graded assignments, quizzes, storing teaching materials and many other educational activities.
 
-- [SmileyTutor (formerly called TutorWeb)]((https://tutor-web.net/)) is another free learning platform whose highlight is that it was built around the [SmyleyCoin cryptocurrency](#cryptocurrency-rewards) as a reward for completing drills and questions.
+- [SmileyTutor (formerly called TutorWeb)]((https://tutor-web.net/)) is another free learning platform whose highlight is that it was built around the [SmileyCoin cryptocurrency](#cryptocurrency-rewards) as a reward for completing drills and questions.
 
-- [tech.io](https://tech.io/) is another platform for presenting questions as quizzes.
+- [`tech.io`](https://tech.io/) is another platform for presenting questions as quizzes.
   More simplistic than Moodle or SmileyTutor, it allows educators to easily create _playgrounds_, which are learning environments designed around specific subjects, made up of reading material, followed by practical exercises and questions.
 
-- [Kahoot!](https://kahoot.it/) is another platform for hosting multiple-choice quizzes.
-  These quizzes are called games and can be created either from scratch, or by using Kahoot's existing question bank.
-  Creating Kahoots from scratch is difficult to automate because the platform requires submitting questions individually into a web page.
+- [`Kahoot!`](https://kahoot.it/) is another platform for hosting multiple-choice quizzes.
+  These quizzes are called games and can be created either from scratch, or by using `Kahoot!`'s existing question bank.
+  Creating `Kahoot!` quizzes from scratch is difficult to automate because the platform requires submitting questions individually into a web page.
 
 Each of these platforms supports a different syntax for uploading questions.
-To make our questions comply with educational platforms easily, we need to store them in a generic format that is easily representable and automatically convertible to other required formats.
+To make our questions comply with educational platforms easily, we need to store them in a generic format that is easily presentable and automatically convertible to other required formats.
 For this reason and for the sake of consistency, we are storing questions in the same Markdown format as all of our written material.
 
-We are developing a modular and easily extendible converter that ports questions from Markdown to other formats.
+We are developing a modular and easily extendable converter that ports questions from Markdown to other formats.
 The format that we use to store questions is easily convertible to other formats.
 Therefore, we do not implement converters for all the existing formats.
-Instead, we do provide a program that is easily extendible to support any kind of format.
+Instead, we do provide a program that is easily extendable to support any kind of format.
 
 The converter becomes a collection of processors whose job is to change the layout of a given file between formats.
 Either their input or their output is a dictionary JSON representation.
@@ -327,7 +327,7 @@ The script will infer the fact that the input format is Markdown and the output 
 python3 question_converter.py convert -i input_file.md -o output_file.mxml
 ```
 
-The converter may also be run by the builder if the educator desires to integrate questions within their published course and not use a third party hosting site, such as those outlined [in the Deployment section](#deployment).
+The converter may also be run by the builder if the educator desires to integrate questions within their published course and not use a third-party hosting site, such as those outlined [in the "Deployment" section](#deployment).
 If this integration is desired, it is up to the educator to configure the builder accordingly.
 
 ### Drills
@@ -399,7 +399,7 @@ Start with the goals, present the expected outcome first
 
 Present the resources
 
-Do it step by step, make it digestable
+Do it step by step, make it digestible
 
 Clear and complete instructions
 
@@ -441,11 +441,11 @@ We reference them as presented in the ["Types of Content" section](#types-of-con
   The lecturer is the one who uses the practical support materials to do live demonstrations and highlight concrete use cases.
   This may not be possible for certain topics, either because they are highly theoretical or because it is difficult to have a live setup.
   Where a live demonstration is not possible, a video recording (as a visual support material) may be used.
-  They consist of **demos** based on [guides](#guides) used for demos.
+  They consist of [guides](#guides) used for **demos**.
 
 - **Assessment materials** are used to evaluate the knowledge and skills of participants, and to provide feedback on spots they need to focus more on.
   Typically they are to be used live during lectures, with their results providing immediate feedback and triggering discussions.
-  They consist of **quizzes** created from [questions](#questions) presented as quizzes.
+  They consist of [questions](#questions) presented as **quizzes**.
 
 - **Offline self-study materials** are to be used by participants outside lectures.
   They are detailed in the ["Self-Study" section](#self-study).
@@ -575,7 +575,7 @@ Their primary objective is to provide learners the flexibility to work through t
 
 #### Launching Assignments
 
-The initial phase of launching an assignment involves several essential steps: publishing the assignment details and files, establishing channels for assistance, and ensuring smooth submission procedures. 
+The initial phase of launching an assignment involves several essential steps: publishing the assignment details and files, establishing channels for assistance, and ensuring smooth submission procedures.
 All of these steps are arranged beforehand, with the latter two falling under the broader scope of the subject's infrastructure.
 
 In the initial stages of the assignment, most queries pertain to administrative and workflow-related aspects.
@@ -583,7 +583,8 @@ Students often seek clarifications about assignment details, including deadlines
 An effective strategy is to create a learner's guide for assignments that covers general aspects.
 
 Another aspect that my rise questions is the assignment as a whole and its desired goal.
-Typically, these questions are broad and not specific to individual tasks; they revolve around starting points and best practices.
+Typically, these questions are broad and not specific to individual tasks;
+they revolve around starting points and best practices.
 Having a clearly defined assignment structure with references can help learners recognize the connection between the overall project and the topics explored.
 
 By keeping discussions organized at the start, the assignment's introduction becomes smoother.
