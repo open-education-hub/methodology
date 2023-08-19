@@ -1,0 +1,17 @@
+cryptocurrency
+extractable
+JPG
+JSON
+LaTeX
+lifecycle
+linter
+Moodle
+PNG
+preprocessor
+SmileyTutor
+SmileyCoin
+StackExchange
+SVG
+timespan
+TODO
+TutorWeb
