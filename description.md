@@ -374,7 +374,7 @@ These demos are typically good ways to capture the attention of learners due to 
 Guides consist of:
 
 - text: created by following the guidelines in the ["Reading" section](#reading)
-- media: created by following the guidelines in the ["Media" section](#section)
+- media: created by following the guidelines in the ["Media" section](#media)
 - support files: source code, skeleton files, application support files, fill-in-the blanks, templates
 
 A learner would read the text, view media files and use (hands-on) practice files to get replicate a practical result present by the guide.
@@ -441,11 +441,11 @@ We reference them as presented in the ["Types of Content" section](#types-of-con
   The lecturer is the one who uses the practical support materials to do live demonstrations and highlight concrete use cases.
   This may not be possible for certain topics, either because they are highly theoretical or because it is difficult to have a live setup.
   Where a live demonstration is not possible, a video recording (as a visual support material) may be used.
-  They consist of [**Guides**](#guides) used for demos.
+  They consist of **demos** based on [guides](#guides) used for demos.
 
 - **Assessment materials** are used to evaluate the knowledge and skills of participants, and to provide feedback on spots they need to focus more on.
   Typically they are to be used live during lectures, with their results providing immediate feedback and triggering discussions.
-  They consist of [**Quizzes**](#quizzes).
+  They consist of **quizzes** created from [questions](#questions) presented as quizzes.
 
 - **Offline self-study materials** are to be used by participants outside lectures.
   They are detailed in the ["Self-Study" section](#self-study).
@@ -516,9 +516,9 @@ A practical session comprises of a series of topics that the learner must assimi
 A topic must contain:
 
 - a brief theoretical description (which may contain links to broader explanations) by using [reading content](#reading), [media](#media), and, potentially, [slide](#slides) materials
-- one or more practical exemplifications of the described topic by using [demos](#demos)
-- one or more [tutorials](#tutorials) where the learner makes the first steps in applying the described topic
-- one or more [quizzes](#quizzes) regarding some aspects of what has been presented so far
+- one or more practical exemplifications of the described topic with demos from [guides](#guides)
+- one or more tutorials from [guides](#guides) content, where the learner makes the first steps in applying the described topic
+- one or more quizzes from [questions](#questions) regarding some aspects of what has been presented so far
 - one or more [drills](#drills) where the learner applies the presented topic
 
 There is no enforcement on the order in which the above content types should appear in the topic layout because that depends on the nature of the presented topic.
@@ -549,7 +549,7 @@ Examinations can take various forms, including:
   Written exams build upon previous learning, but they aren't adaptive and don't personalize the experience for each learner.
   Additionally, they might not be the best choice for assessing complex situations, often leaning towards straightforward questions.
 
-- **Multiple-Choice Exams** involve choosing the correct answer from a set of options, essentially being a compilation of [quizzes](#quizzes).
+- **Multiple-Choice Exams** involve choosing the correct answer from a set of options, essentially being a compilation of [questions](#questions).
   You can consider creating two sets of quizzes: one accessible to all for learning purposes, and another separate set reserved for assessment.
   However, this approach is only a short-term solution, as questions may eventually become accessible through leaks.
   Our recommendation leans toward making all quizzes publicly available and concentrating on producing a substantial number of them.
@@ -564,7 +564,7 @@ Examinations can take various forms, including:
 
 - **Practical Exams** revolve around real-world problem-solving and skill demonstration.
   They are most suitable for disciplines that emphasize hands-on learning and seek quantifiable outcomes.
-  In comparison to multiple-choice exams which extend from quizzes, practical exams build upon the idea of [tutorials](#tutorials).
+  In comparison to multiple-choice exams which extend from [questions](#questions), practical exams are built on top of [guides](#guides) and [drills](#drills).
   Their purpose is to handle various tasks, whether demonstrated earlier, similar in nature, or involving combinations, all without guidance.
   This exams require dedicated equipment for the learner (laptops, lab equipment, substances etc.).
 
@@ -675,13 +675,13 @@ A general example of the following structure is shown below or can be found [her
 
 #### Drills and Quizzes
 
-To improve the learning experience and for the learners to have a method to test their knowledge, ["Drills"](#drills) and ["Quizzes"](#quizzes) can be used.
+To improve the learning experience and for the learners to have a method to test their knowledge, [drills](#drills) and quizzes can be used.
 While the quizzes are oriented more on the theoretical knowledge, the drills are oriented more on practical side.
 The best way is to use both types of exercises and reference them in each subject.
 In this way, the learner will know in which order he should go through the material.
 Their difficulty should be in an appropriate way, starting from easy exercises and reaching the hard ones.
 At the end, some open-ended questions can be used to test the learner's knowledge and their understanding of the subject.
-More information on how to create and organize ["Drills"](#drills) and ["Quizzes"](#quizzes) can be found above.
+More information on how to create and organize [drills](#drills) and quizzes (from [questions](#questions)) can be found above.
 
 #### Quick Feedback
 
