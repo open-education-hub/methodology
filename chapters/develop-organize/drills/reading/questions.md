@@ -8,13 +8,13 @@ This is opposition to [tasks](tasks.md) that require a solution.
 
 Questions verify specific information and must be verifiable automatically. - RD: not necessarily automatically
 Therefore, this section covers multiple-choice or simple answer questions, such as a word or a number.
-On the other hand, open-ended tasks such as essays, that are difficult to verify automatically, are considered [drills](#drills) instead.
+On the other hand, open-ended tasks such as essays, that are difficult to verify automatically, are considered drills.
 
 Questions may be a form of live checks (as part of lectures or labs), self-study or formal examination.
 They provide a means to evaluate learner understanding.
 This creates a positive feedback loop between trainers and trainees whereby both can track the learners' progress in real time.
 
-Furthermore, questions serve as practice items for learners to solve at their own pace, in conjunction with [drills](#drills).
+Furthermore, questions serve as practice items for learners to solve at their own pace, in conjunction with drills.
 They may also be used for evaluation items that contribute to the learners' overall grade.
 
 Another desired aspect is that questions be easily extractable and convertible between formats, as described [below](#deployment), and repurposed by other trainers.
@@ -50,7 +50,8 @@ Out of the existing teaching platforms, a few highlights are:
 - [Moodle](https://moodle.org/) is a free open-source learning platform dedicated to course management.
   It supports graded assignments, quizzes, storing teaching materials and many other educational activities.
 
-- [SmileyTutor (formerly called TutorWeb)]((https://tutor-web.net/)) is another free learning platform whose highlight is that it was built around the [SmileyCoin cryptocurrency](#cryptocurrency-rewards) as a reward for completing drills and questions.
+- [SmileyTutor (formerly called TutorWeb)](https://tutor-web.net/) is another free learning platform whose highlight is that it was built around the [SmileyCoin cryptocurrency](https://smileyco.in/) as a reward for completing drills and questions.
+  See more in [the "Digital Rewards" section](../../../infrastructure/digital-rewards/reading/README.md).
 
 - [`tech.io`](https://tech.io/) is another platform for presenting questions as quizzes.
   More simplistic than Moodle or SmileyTutor, it allows educators to easily create _playgrounds_, which are learning environments designed around specific subjects, made up of reading material, followed by practical exercises and questions.
@@ -174,4 +175,3 @@ python3 question_converter.py convert -i input_file.md -o output_file.mxml
 
 The converter may also be run by the builder if the educator desires to integrate questions within their published course and not use a third-party hosting site, such as those outlined [in the" Deployment" section](#deployment).
 If this integration is desired, it is up to the educator to configure the builder accordingly.
-

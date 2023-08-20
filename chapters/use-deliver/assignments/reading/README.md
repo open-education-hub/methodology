@@ -82,7 +82,7 @@ This can be done either collectively after all submissions are uploaded or, for 
 In the latter scenario, the grade for the assignment is the grade of the last submission.
 Putting this solution into practice involves utilizing external platforms like [GitLab](https://gitlab.com/), which enable the execution of actions based on specific events—such as submissions in our case.
 This prompt evaluation guarantees that students remain on the right track while tackling the assignment and that their solutions progressively improve.
-Moreover, the automated checker transforms homework assignments into valuable [self-study](#self-study) resources, given that the feedback is not dependent on human intervention.
+Moreover, the automated checker transforms homework assignments into valuable [self-study](../../self-study/reading/README.md) resources, given that the feedback is not dependent on human intervention.
 
 However, the more typical scenario involves assignments that cannot be entirely automated.
 In such situations, one approach is to motivate students to submit their work ahead of time, granting more time for thorough grading of submissions.

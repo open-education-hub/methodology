@@ -66,7 +66,7 @@ Typically kept in a separate directory, named `utility/` in our case, these file
 Instead, they handle the meta aspects of the solution, focusing on consistency.
 This includes tasks like line or word counts, grammar checks, and maintaining the structure of write-ups.
 
-These programs have a broad scope and are often readily accessible online as [third-party tools](#third-party-open-tools-employed).
+These programs have a broad scope and are often readily accessible online as third-party tools, as presented in [the "Support Infrastructure" section](../../../infrastructure/overview/reading/README.md).
 These tools are crafted for easy deployment without intricate configurations.
 However, for tailored use-cases, they provide a "control panel" in the form of a configuration file, usually in formats such as `.yml` or `.json`.
 

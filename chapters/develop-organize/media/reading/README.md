@@ -47,4 +47,3 @@ Some educational scenarios involve the learner to interact with a specific appli
 The application can be a video game, a web page or even a simple computer program that simulates a given context.
 For such situations, the code of the application should be stored alongside the information regarding the tools that are necessary to build the application.
 Since this type of content involves a broad range of tools that could be employed, we simply recommend using free and open technologies.
-

@@ -5,10 +5,10 @@ Reviewer: Vlad Năstase
 
 Present infrastructure components:
 
-- Using GitHub for collaborative edigint
+- Using GitHub for collaborative editing
 - Tools for generating content (media, slides, post-processing)
 - Component (OpenEdu builder) for building and publishing content
-- Component (vmchecker-next) for automatic submission checking
+- Component (`vmchecker`) for automatic submission checking
 - Components to create and present quizzes
 - Using linters to validate content (Markdown, code, configuration files)
 - Integrating linters and deployment / publishing rules in GitHub (as GitHub workflows)
@@ -55,8 +55,8 @@ For example, when Meta has chosen to use a certain file deployment solution, it 
 
 Sections:
 
-* [Collaboration](../../collaboration/reading/README.md)
-* [Processing](../../processing/reading/README.md)
-* [Validators and Checkers](../../checkers/reading/README.md)
-* [Linters](../../linters/reading/README.md)
-* [Digital Rewards](../../digital-rewards/reading/README.md)
+- [Collaboration](../../collaboration/reading/README.md)
+- [Processing](../../processing/reading/README.md)
+- [Validators and Checkers](../../checkers/reading/README.md)
+- [Linters](../../linters/reading/README.md)
+- [Digital Rewards](../../digital-rewards/reading/README.md)

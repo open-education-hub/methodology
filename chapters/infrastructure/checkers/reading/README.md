@@ -7,6 +7,6 @@ definitions
 
 roles: automation
 
-vmchecker
+`vmchecker`
 
 local checking, local environment (Docker-based)
