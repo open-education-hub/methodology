@@ -1,10 +1,17 @@
 ### Projects
 
-Projects represent unassisted work that learners engage in, over the course of several weeks or months, to enhance their knowledge and comprehension of specific subjects.
+Projects are practice items that are larger in scope and require more time, effort and resources to complete.
+Projects are mainly used as content for [assignments](../../use-deliver/assignments/reading/README.md).
+The main goal of projects is to provide intense challenges to learners, providing them an increase in their skills and knowledge.
 
-Projects share similarities to [drills](#drills), but provide more comprehensive challenges that create a unified scenario.
-This environment encourages the application of studied subjects, but also allows exploring beyond them to achieve an authentic learning experience.
-This fosters self-directed learning and enables learners to accumulate knowledge at their own pace.
+Typically, a project consists of a statement, support files and, where possible, validators / checkers.
+The statement presents the context, goals, resources, useful references.
+Support files are pieces of digital information (source code, templates, application support files) that form a starting point for the project.
+Validators / checkers are scripts or applications that automate the verification and grading of the solution.
+Learners read the project statement, define a plan for reaching the state goals, implement a solution by using support files and then validate the solution with the checkers.
+
+Each project should have a reference solution.
+Generally, the reference solution to the project is to be kept in a private repository.
 
 #### Storing Projects
 
