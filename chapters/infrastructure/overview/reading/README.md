@@ -1,15 +1,16 @@
 ## Support Infrastructure
 
-Descrie elementele de infrastructură:
-- Folosirea GitHub pentru dezvoltare colaborativă
-- Utilitare pentru generare de conținut (media, slide-uri)
-- Componentă (a noastră) de publicare de conținut
-- Componentă a noastră pentru verificare de submisii
-- Componente pentru organizarea de quizuri
-- Validatoare de conținut (linters)
-- Integrare în GitHub de componente de validare de conținut și deployment automat
-- Forme de recompense digitale
-- Comunicare (canal de Discord, discuții pe GitHub) pe subiect / curs
+Present infrastructure components:
+
+- Using GitHub for collaborative edigint
+- Tools for generating content (media, slides, post-processing)
+- Component (OpenEdu builder) for building and publishing content
+- Component (vmchecker-next) for automatic submission checking
+- Components to create and present quizzes
+- Using linters to validate content (Markdown, code, configuration files)
+- Integrating linters and deployment / publishing rules in GitHub (as GitHub workflows)
+- Digital rewards
+- Communication specific to the content (Discord channel, GitHub discussions, mailing list)
 
 This chapter describes the various technologies used to develop, store, deploy and publish the educational content.
 

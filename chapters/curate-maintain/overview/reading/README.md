@@ -1,1 +1,10 @@
-Descrie cum își va îndeplini rolul un maintainer de conținut în ceea ce privește versionarea conținutului, integrat contribuții, ținut evidența utilizatorilor conținutului, organizat discuții tematice
+## Curating and Maintaining Content
+
+Remind the role of content maintainer.
+Present responsibilities of content maintainers and guideliness regarding content versioning, integrating contributions, overseeing content use, organizing content-specific discussions.
+
+Sections:
+
+* [Content](../../content/reading/README.md)
+* [Communication](../../communication/reading/README.md)
+* [Community](../../community/reading/README.md)

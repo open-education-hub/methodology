@@ -1,12 +1,14 @@
 # Building Blocks
 
-Prezintă cum este organizat high-level conținutul unui subiect / curs / training:
+Present the high-level organization of a course or a subject that will be part of a repository:
 
-1. Un repository de conținut, organizat și folosit cum este descris în secțiunea ["Developing and Organizing Content"](../develop-organize/README.md).
-1. Un repository privat, cu soluții de referință sau alte elemente pe care le dorim private.
-1. Un repository de implementare, organizat cum este în secțiunea ["Using and Delivering Content"](../use-deliver/README.md).
-1. Infrastructură de suport pentru stocarea conținutului, publicarea conținutului, validarea conținutului, suport în procesul educațional (generare de quizuri, verificare automată de teme etc), descis în secțiunea ["Support Infrastructure"](../infrastructure/README.md).
+1. A public content repository, organized and used as shown in [the "Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
+1. A private repository, with reference solutions and other items we want to keep private.
+1. An implementation-specific repository, used by the organization or person who does the actual content delivery, organized as detailed in [the "Using and Delivering Content" section](../../../use-deliver/overview/reading/README.md).
+1. Support infrastructure for storing, publishing, validating content and providing support in education activities (quiz generation, automatic submission checking etc.), detailed in [the "Support Infrastructure" session](../../../infrastructure/overview/reading/README.md).
 
-Relevante sunt rolurile celor care vor contribui la conținut, descrise în secțiunea ["Roles"](../roles/README.md).
+Of relevance are the roles of those who manage, develop or contribute to content, detailed in [the "Roles" section](../../../roles/overview/reading/README.md).
 
-Și modul în care va  fi menținut conținutul, descrisa în secțiunea ["Curating and Maintaining Content"](../curate-maintain/README.md).
+And the guidelines for maintaing content, presented in [the "Curating and Maintaining Content" section](../../../curate-maintain/overview/reading/README.md).
+
+Conventions used in this methodology are detailed in [the "Conventions" section](../../conventions/reading/README.md).
