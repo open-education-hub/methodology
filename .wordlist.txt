@@ -19,3 +19,4 @@ Turnitin
 Grammarly
 centric
 GitLab
+frontend
