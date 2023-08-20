@@ -1,5 +1,8 @@
 ## Building Blocks
 
+Owner: Alex Apostolescu
+Reviewer: Ștefan Jumărea
+
 Present the high-level organization of a course or a subject that will be part of a repository:
 
 1. A public content repository, organized and used as shown in [the "Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).

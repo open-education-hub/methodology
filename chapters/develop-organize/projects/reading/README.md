@@ -1,5 +1,8 @@
 ### Projects
 
+Owner: Alex Apostolescu
+Reviewer: Gabi Mocanu
+
 Projects are practice items that are larger in scope and require more time, effort and resources to complete.
 Projects are mainly used as content for [assignments](../../../use-deliver/assignments/reading/README.md).
 The main goal of projects is to provide intense challenges to learners, providing them an increase in their skills and knowledge.

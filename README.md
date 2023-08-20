@@ -1,5 +1,8 @@
 # Open Education Hub Methodology
 
+Owner: Răzvan Nițu
+Reviewer: Răzvan Deaconescu
+
 The Open Education Hub methodology presents the resources and guides to developing, using and maintaining digital educational content repositories.
 The methodology is is anchored in the use of the open source development model and in developing open educational resources (OER).
 Th open source development model is concerned about using open source tools, an open process for contributing, reviewing and mantainig content and the fostering of communities around content repositories.

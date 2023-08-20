@@ -1,5 +1,8 @@
 ### Linters
 
+Owner: Gabi Mocanu
+Reviewer: Alex Apostolescu
+
 definition
 
 roles

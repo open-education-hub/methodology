@@ -1,5 +1,8 @@
 ### Media
 
+Owner: Răzvan Nițu
+Reviewer: Liza Babu
+
 The media content type refers to audio, visual or audiovisual educational materials.
 Images, videos, audio files, educational video games represent examples of such content.
 

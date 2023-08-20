@@ -1,5 +1,8 @@
 ### Practical Sessions
 
+Owner: Răzvan Nițu
+Reviewer: Adrian Șendroiu
+
 Practical sessions are represented by hands-on activities that learners perform in order to acquire experience.
 These activities are typically supervised by an educator who proposes the practical exercises and evaluates the learner's performance.
 The purpose of the evaluation is mainly to provide feedback as opposed to grading the learner.

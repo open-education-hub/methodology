@@ -1,5 +1,8 @@
 ### Exams
 
+Owner: Alex Apostolescu
+Reviewer: Liza Babu
+
 Exams are assessments designed to evaluate learners' understanding and application of the course material.
 Exams aim to measure comprehension, critical thinking, and problem-solving skills.
 

@@ -1,5 +1,8 @@
 ## Support Infrastructure
 
+Owner: Sergiu Weisz
+Reviewer: Vlad Năstase
+
 Present infrastructure components:
 
 - Using GitHub for collaborative edigint
