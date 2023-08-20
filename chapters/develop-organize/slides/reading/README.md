@@ -77,4 +77,3 @@ content types: text, bullets, code, tables
 
 animations, highlights;
 wherever possible, text should be replaced with images and animations
-

@@ -1,4 +1,4 @@
-## Suppor Infrastructure
+## Support Infrastructure
 
 Descrie elementele de infrastructură:
 - Folosirea GitHub pentru dezvoltare colaborativă

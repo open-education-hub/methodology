@@ -41,4 +41,3 @@ Do it step by step, make it digestible
 Clear and complete instructions
 
 Highlight the relevance of the result
-
