@@ -1,4 +1,4 @@
-# Developing and Organizing Content
+## Developing and Organizing Content
 
 Present the structure and organization of a content repository.
 Detail its hierarchy (a `tree` command-like output) and summarize the types of contents in its subsections.

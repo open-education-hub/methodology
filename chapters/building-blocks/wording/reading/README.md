@@ -1,3 +1,3 @@
-## Wording
+### Wording
 
 Details words, syntax, formatting used: educator, learner. Anything else?

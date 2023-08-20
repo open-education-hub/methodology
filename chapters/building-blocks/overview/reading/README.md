@@ -1,4 +1,4 @@
-# Building Blocks
+## Building Blocks
 
 Present the high-level organization of a course or a subject that will be part of a repository:
 
