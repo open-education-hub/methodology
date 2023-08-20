@@ -1,12 +1,10 @@
 ### Drills
 
 Drills are educational activities designed to reinforce learning through repetitive practice.
-While quizzes are assessments aimed at testing understanding, drills involve repeated practice of a specific skill or concept.
 The primary goal of drills is to promote mastery and internalisation of skills or knowledge.
 By repeating tasks or exercises, learners can reinforce their understanding and enhance their ability to apply learned concepts effectively.
-However, it's important to balance drills with other types of learning activities to maintain learner engagement and prevent monotony.
-For example, drills can be combined with homework assignments, group discussions, and other activities to provide a more varied learning experience.
-The difference is that while drills are repetitive, simple, and focused on a single skill or concept, homework activities can be more complex and open-ended.
+Drills share similarities with [projects](../../projects/reading/README.md).
+The difference is that while drills are repetitive, simple, and focused on a single skill or concept, projects are more complex, broader in scope and with a larger variety of solutions.
 
 Some key considerations when designing drills include:
 
@@ -28,3 +26,23 @@ There are several ways to organize these drills:
 - **Group drills**: Students work in groups to complete drills.
 - **Competitive drills**: Students compete against each other to complete drills.
 - **Timed drills**: Students complete drills within a specified time limit.
+
+Any sort of repetitive learning item is a drill.
+There can be questions with a simple answer, such as multiple choice, fill in the blanks, matching questions;
+these questions are easy to grade automatically.
+There can be questions with a clear, short answer, that is not easy to be grade automatically.
+There can be essays / open-ended questions that require a personal take on a topic.
+There can be problems with a statement and a solution that's required to be written down by the learner.
+There can be practice items that require the learner to construct a solution as a digital application, a solution that ca be passed through an automated checking and grading system, as presented in [the "Validators and Checkers" section](../../../infrastructure/checkers/reading/README.md).
+
+TODO: insist on importante of automating validation and grading
+
+TODO: mention flexibility of storing the diffent types of drill items
+
+TODO: mention use cases: lab, lecture, assignments, exams, self study (basically everywhere)
+
+TODO: mention roles: learn / practice, self-assess, actual evaluation
+
+Sample question types: https://help.blackboard.com/Learn/Instructor/Ultra/Tests_Pools_Surveys/Question_Types, https://docs.moodle.org/402/en/Question_types
+
+link different types of drills as `.md` files in the current directory: [questions](questions.md) and [tasks](tasks.md)
