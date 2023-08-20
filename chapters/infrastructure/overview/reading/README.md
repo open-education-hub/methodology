@@ -49,3 +49,11 @@ Sporadic work on a project or a small person development team mean that the tool
 Institutional support for a software solution makes it so there is financial interest in developing the software.
 If a company or institution's financial outcome depends on a project, there will be more development or funding interest from this company.
 For example, when Meta has chosen to use a certain file deployment solution, it was likely for more bugs to be reported and fixed.
+
+Sections:
+
+* [Collaboration](../../collaboration/reading/README.md)
+* [Processing](../../processing/reading/README.md)
+* [Validators and Checkers](../../checkers/reading/README.md)
+* [Linters](../../linters/reading/README.md)
+* [Digital Rewards](../../digital-rewards/reading/README.md)
