@@ -1,5 +1,8 @@
 #### Questions
 
+Owner: Teo Duțu
+Reviewer: Gabi Mocanu
+
 Questions are types of drills that require an answer.
 This is opposition to [tasks](tasks.md) that require a solution.
 

@@ -1,5 +1,8 @@
 ### Self-Study
 
+Owner: Gabi Mocanu
+Reviewer: Alex Apostolescu
+
 Self-study is the process of independently learning outside of structural classroom settings or formal instruction.
 
 There are multiple reasons learners find self-studying hard:

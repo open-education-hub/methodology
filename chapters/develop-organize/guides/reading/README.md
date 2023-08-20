@@ -1,5 +1,8 @@
 ### Guides
 
+Owner: Răzvan Deaconescu
+Reviewer: Teo Duțu
+
 Guides are pieces of content consisting of detailed steps that are commonly used in practice.
 
 Guides are to be used by learners as tutorials, part of the learning process.

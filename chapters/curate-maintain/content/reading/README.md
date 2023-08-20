@@ -1,5 +1,8 @@
 ### Content
 
+Owner: Adrian Șendroiu
+Reviewer: Ștefan Jumărea
+
 the central part is content management, around a repository
 
 typically Git & GitHub

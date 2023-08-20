@@ -1,5 +1,8 @@
 ### Reading
 
+Owner: Răzvan Nițu
+Reviewer: Ștefan Jumărea
+
 The reading content type is the most common form of storing educational material (or information, in general).
 As the name suggests the content is developed to be read, therefore it comes in the form of text.
 

@@ -1,6 +1,7 @@
 ## Using and Delivering Content
 
-Present:
+Owner: Liza Babu
+Reviewer: Ștefan Jumărea
 
 - who the implementation specific repository is organized, by refering content in the content repository
 - how components of the actual education delivey phase are used;

@@ -1,5 +1,8 @@
 ### Assignments
 
+Owner: Alex Apostolescu
+Reviewer: Sergiu Weisz
+
 Assignments are unassisted practical activities that learners undertake individually or in teams over a longer timespan.
 Their primary objective is to provide learners the flexibility to work through tasks at their desired speed, allowing them to address gaps in their understanding as they progress.
 

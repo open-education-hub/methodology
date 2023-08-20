@@ -1,5 +1,8 @@
 ## Curating and Maintaining Content
 
+Owner: Răzvan Deaconescu
+Reviewer: Adrian Șendroiu
+
 Remind the role of content maintainer.
 Present responsibilities of content maintainers and guideliness regarding content versioning, integrating contributions, overseeing content use, organizing content-specific discussions.
 

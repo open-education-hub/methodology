@@ -1,5 +1,8 @@
 ### Collaboration
 
+Owner: Răzvan Deaconescu
+Reviewer: Adrian Șendroiu
+
 the use of Git, GitHub, communication media
 
 OpenEduHub communication: managed by the curator / maintainer, as shown in [the "Communication" section](../../../curate-maintain/communication/reading/README.md)

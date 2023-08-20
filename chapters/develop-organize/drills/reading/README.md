@@ -1,5 +1,8 @@
 ### Drills
 
+Owner: Teo Duțu
+Reviewer: Gabi Mocanu
+
 Drills are educational activities designed to reinforce learning through repetitive practice.
 The primary goal of drills is to promote mastery and internalisation of skills or knowledge.
 By repeating tasks or exercises, learners can reinforce their understanding and enhance their ability to apply learned concepts effectively.

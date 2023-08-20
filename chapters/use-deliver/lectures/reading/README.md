@@ -1,5 +1,8 @@
 ### Lectures
 
+Owner: Răzvan Deaconescu
+Reviewer: Alex Apostolescu
+
 Lectures are teaching activities that typically take place with a larger audience and are asymmetrical: a lecturer mostly talks while the audience mostly listens.
 Interactivity is important but is limited by the larger audience: not all participants will be able to actively engage in conversations;
 however, items that don't require conversation, such as quizzes, are a good way to engage all participants, as we discuss below.
