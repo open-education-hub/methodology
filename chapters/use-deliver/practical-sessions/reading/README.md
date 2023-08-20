@@ -44,4 +44,3 @@ Therefore, for humanitarian fields of study such as history or philosophy, we re
 The number of topics and the ordering in which the topics are presented in a practical session is highly dependent on the nature of the field of study and the preference of the educator.
 As a consequence, we do not have any recommendations regarding this aspect.
 However, if the content creator develops materials that have dependencies between them, this should be specified.
-

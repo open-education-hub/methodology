@@ -54,4 +54,3 @@ In computer science field this can be done using an automated checker or using u
 In other fields, this might not be possible.
 For example, in mathematics, even if the learner did the correct answer, it is possible that he got the correct answer using wrong or ineffective methods.
 This is hard to detect automatically, but one solution for this is to organize a cross-check review between learners.
-
