@@ -11,7 +11,7 @@ Examinations can take various forms, including:
   Written exams build upon previous learning, but they aren't adaptive and don't personalize the experience for each learner.
   Additionally, they might not be the best choice for assessing complex situations, often leaning towards straightforward questions.
 
-- **Multiple-Choice Exams** involve choosing the correct answer from a set of options, essentially being a compilation of [questions](#questions).
+- **Multiple-Choice Exams** involve choosing the correct answer from a set of options, essentially being a compilation of [questions](../../../develop-organize/drills/reading/questions.md).
   You can consider creating two sets of quizzes: one accessible to all for learning purposes, and another separate set reserved for assessment.
   However, this approach is only a short-term solution, as questions may eventually become accessible through leaks.
   Our recommendation leans toward making all quizzes publicly available and concentrating on producing a substantial number of them.
@@ -26,6 +26,6 @@ Examinations can take various forms, including:
 
 - **Practical Exams** revolve around real-world problem-solving and skill demonstration.
   They are most suitable for disciplines that emphasize hands-on learning and seek quantifiable outcomes.
-  In comparison to multiple-choice exams which extend from [questions](#questions), practical exams are built on top of [guides](#guides) and [drills](#drills).
+  In comparison to multiple-choice exams which extend from [questions](../../../develop-organize/drills/reading/questions.md), practical exams are built on top of [guides](../../../develop-organize/guides/reading/README.md) and [tasks](../../../develop-organize/drills/reading/tasks.md).
   Their purpose is to handle various tasks, whether demonstrated earlier, similar in nature, or involving combinations, all without guidance.
   This exams require dedicated equipment for the learner (laptops, lab equipment, substances etc.).

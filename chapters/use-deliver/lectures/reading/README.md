@@ -11,15 +11,15 @@ In the following sections, we detail steps in preparing and (re)using lecture ma
 #### Lecture Materials
 
 We organize lecture materials according to lecture-specific activities.
-We reference them as presented in the ["Types of Content" section](#types-of-content).
+We reference them as presented in [the "Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
 
 - **Visual support materials** are used as support material for giving talks and engaging participants in discussions.
   They consist of:
 
-  - [**Slides**](#slides) are the typical structured and simplified format for organizing ideas.
+  - [**Slides**](../../../develop-organize/slides/reading/README.md) are the typical structured and simplified format for organizing ideas.
     The lecturer walks through slides and presents information by expanding ideas on the slides, and by engaging in discussions based on those ideas.
 
-  - [**Media files**](#media) are generally images or videos that represent a concept in an easier to grasp format.
+  - [**Media files**](../../../develop-organize/media/reading/README.md) are generally images or videos that represent a concept in an easier to grasp format.
     Diagrams, photos, recordings of actions / processes, recorded simulations fall under this category.
     They can be used either stand-alone or embedded into slides.
 
@@ -27,14 +27,14 @@ We reference them as presented in the ["Types of Content" section](#types-of-con
   The lecturer is the one who uses the practical support materials to do live demonstrations and highlight concrete use cases.
   This may not be possible for certain topics, either because they are highly theoretical or because it is difficult to have a live setup.
   Where a live demonstration is not possible, a video recording (as a visual support material) may be used.
-  They consist of [guides](#guides) used for **demos**.
+  They consist of [guides](../../../develop-organize/guides/reading/README.md) used for **demos**.
 
 - **Assessment materials** are used to evaluate the knowledge and skills of participants, and to provide feedback on spots they need to focus more on.
   Typically they are to be used live during lectures, with their results providing immediate feedback and triggering discussions.
-  They consist of [questions](#questions) presented as **quizzes**.
+  They consist of [questions](../../../develop-organize/drills/reading/questions.md) presented as **quizzes**.
 
 - **Offline self-study materials** are to be used by participants outside lectures.
-  They are detailed in the ["Self-Study" section](#self-study).
+  They are detailed in [the "Self-Study" section](../../self-study/reading/README.md).
 
 As other types of content, lecture materials are publicly available, and also open to contributions.
 Lecture materials are meant to be used live by educators during lectures and then offline by learners, to improve gained knowledge and skills.

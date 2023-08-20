@@ -24,11 +24,11 @@ At the same time, they should be usable in the absence of a educator as standalo
 A practical session comprises of a series of topics that the learner must assimilate.
 A topic must contain:
 
-- a brief theoretical description (which may contain links to broader explanations) by using [reading content](#reading), [media](#media), and, potentially, [slide](#slides) materials
-- one or more practical exemplifications of the described topic with demos from [guides](#guides)
-- one or more tutorials from [guides](#guides) content, where the learner makes the first steps in applying the described topic
-- one or more quizzes from [questions](#questions) regarding some aspects of what has been presented so far
-- one or more [drills](#drills) where the learner applies the presented topic
+- a brief theoretical description (which may contain links to broader explanations) by using [reading content](../../../develop-organize/reading/reading/README.md), [media](../../../develop-organize/media/reading/README.md), and, potentially, [slides](../../../develop-organize/slides/reading/README.md) materials
+- one or more practical exemplifications of the described topic with demos from [guides](../../../develop-organize/guides/reading/README.md)
+- one or more tutorials from [guides](../../../develop-organize/guides/reading/README.md) content, where the learner makes the first steps in applying the described topic
+- one or more quizzes from [questions](../../../develop-organize/drills/reading/questions.md) regarding some aspects of what has been presented so far
+- one or more [tasks](../../../develop-organize/drills/reading/tasks.md) where the learner applies the presented topic
 
 There is no enforcement on the order in which the above content types should appear in the topic layout because that depends on the nature of the presented topic.
 However, we do recommend that the content types are mingled together so that the learner's attention is kept alive.
