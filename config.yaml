@@ -1,0 +1,74 @@
+stages:
+  - docusaurus
+
+build_dir: /build
+output_type: last
+output_dir: /output
+
+docusaurus:
+  plugin: docusaurus
+  options:
+    course_name: OpenEdu Methodology
+    sidebar: js
+    structure:
+      - Building Blocks:
+          path: chapters/building-blocks/
+          subsections:
+            - Overview: overview/reading/README.md
+            - Conventions: conventions/reading/README.md
+      - Roles:
+          path: chapters/roles/
+          subsections:
+            - Overview: overview/reading/README.md
+      - Support Infrastructure:
+          path: chapters/infrastructure/
+          subsections:
+            - Overview: overview/reading/README.md
+            - Collaboration: collaboration/reading/README.md
+            - Processing: processing/reading/README.md
+            - Checkers: checkers/reading/README.md
+            - Linters: linters/reading/README.md
+            - Digital Rewards: digital-rewards/reading/README.md
+      - Developing and Organizing Content:
+          path: chapters/develop-organize/
+          subsections:
+            - Overview: overview/reading/README.md
+            - Reading: reading/reading/README.md
+            - Media: media/reading/README.md
+            - Slides: slides/reading/README.md
+            - Guides: guides/reading/README.md
+            - Drills:
+                path: drills/reading/
+                extra:
+                  - ../media/
+                subsections:
+                  - Overview: README.md
+                  - Questions: questions.md
+                  - Tasks: tasks.md
+            - Projects: projects/reading/README.md
+      - Using and Delivering Content:
+          path: chapters/use-deliver/
+          subsections:
+            - Overview: overview/reading/README.md
+            - Lectures: lectures/reading/README.md
+            - Practical Sessions: practical-sessions/reading/README.md
+            - Assignments: assignments/reading/README.md
+            - Exams: exams/reading/README.md
+            - Self-study: self-study/reading/README.md
+      - Curating and Maintaining Content:
+          path: chapters/curate-maintain/
+          subsections:
+            - Overview: overview/reading/README.md
+            - Content: content/reading/README.md
+            - Communication: communication/reading/README.md
+            - Community: community/reading/README.md
+    config_meta:
+      title: Open Education Hub Methodology
+      url: http://localhost/
+      baseUrl: /methodology/
+      onBrokenLinks: warn
+      onBrokenMarkdownLinks: warn
+    config_socials:
+      Main site: https://open-education-hub.github.io
+      Facebook: https://www.facebook.com/openeducationhub/
+    copyright_string: Open Education Hub
