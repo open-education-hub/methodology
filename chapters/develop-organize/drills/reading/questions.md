@@ -1,6 +1,9 @@
-### Questions
+#### Questions
 
-Questions verify specific information and must be verifiable automatically.
+Questions are types of drills that require an answer.
+This is opposition to [tasks](tasks.md) that require a solution.
+
+Questions verify specific information and must be verifiable automatically. - RD: not necessarily automatically
 Therefore, this section covers multiple-choice or simple answer questions, such as a word or a number.
 On the other hand, open-ended tasks such as essays, that are difficult to verify automatically, are considered [drills](#drills) instead.
 
