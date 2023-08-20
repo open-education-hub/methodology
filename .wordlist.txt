@@ -20,3 +20,13 @@ Grammarly
 centric
 GitLab
 frontend
+linters
+validator
+validators
+OpenEdu
+OpenEduHub
+assignee
+assignees
+OER
+PR
+PRs

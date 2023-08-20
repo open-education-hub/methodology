@@ -12,6 +12,6 @@ Present the high-level organization of a course or a subject that will be part o
 
 Of relevance are the roles of those who manage, develop or contribute to content, detailed in [the "Roles" section](../../../roles/overview/reading/README.md).
 
-And the guidelines for maintaing content, presented in [the "Curating and Maintaining Content" section](../../../curate-maintain/overview/reading/README.md).
+And the guidelines for maintaining content, presented in [the "Curating and Maintaining Content" section](../../../curate-maintain/overview/reading/README.md).
 
 Conventions used in this methodology are detailed in [the "Conventions" section](../../conventions/reading/README.md).

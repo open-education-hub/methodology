@@ -38,14 +38,14 @@ There can be essays / open-ended questions that require a personal take on a top
 There can be problems with a statement and a solution that's required to be written down by the learner.
 There can be practice items that require the learner to construct a solution as a digital application, a solution that ca be passed through an automated checking and grading system, as presented in [the "Validators and Checkers" section](../../../infrastructure/checkers/reading/README.md).
 
-TODO: insist on importante of automating validation and grading
+TODO: insist on importance of automating validation and grading
 
-TODO: mention flexibility of storing the diffent types of drill items
+TODO: mention flexibility of storing the different types of drill items
 
 TODO: mention use cases: lab, lecture, assignments, exams, self study (basically everywhere)
 
 TODO: mention roles: learn / practice, self-assess, actual evaluation
 
-Sample question types: https://help.blackboard.com/Learn/Instructor/Ultra/Tests_Pools_Surveys/Question_Types, https://docs.moodle.org/402/en/Question_types
+Sample question types: [`Blackboard`](https://help.blackboard.com/Learn/Instructor/Ultra/Tests_Pools_Surveys/Question_Types), [Moodle](https://docs.moodle.org/402/en/Question_types)
 
 link different types of drills as `.md` files in the current directory: [questions](questions.md) and [tasks](tasks.md)
