@@ -32,22 +32,21 @@ A general example of the following structure is shown below or can be found [her
         `-- topic-2
 ```
 
-#### Drills and Quizzes
+#### Drills
 
-To improve the learning experience and for the learners to have a method to test their knowledge, [drills](#drills) and quizzes can be used.
-While the quizzes are oriented more on the theoretical knowledge, the drills are oriented more on practical side.
-The best way is to use both types of exercises and reference them in each subject.
+To improve the learning experience and for the learners to have a method to test their knowledge, [drills](../../../develop-organize/drills/reading/README.md) can be used.
+Drills typically consist of questions, more on the theoretical side, and tasks, more on the practical side.
+The best way is to use both types of drills and reference them in each subject.
 In this way, the learner will know in which order he should go through the material.
 Their difficulty should be in an appropriate way, starting from easy exercises and reaching the hard ones.
 At the end, some open-ended questions can be used to test the learner's knowledge and their understanding of the subject.
-More information on how to create and organize [drills](#drills) and quizzes (from [questions](#questions)) can be found above.
 
 #### Quick Feedback
 
-After reading and solving drills and quizzes, the learner should be able to get a quick feedback about their understanding of the subject.
+After reading and solving drills, the learner should be able to get a quick feedback about their understanding of the subject.
 Getting a quick feedback keep the learner motivated and engaged.
 This is an essential part of the learning process and should be integrated in the learning material.
-Every quiz should have a feedback section with the correct answers and an explanation of the answers.
+Every drill should have a feedback section with the correct answers and an explanation of the answers.
 Reading the explanation will help the learner understand better even if they did the correct answer.
 For drills, it's important to have a possibility to check what the learner did.
 In computer science field this can be done using an automated checker or using unit tests for the drill.

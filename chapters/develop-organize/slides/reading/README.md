@@ -43,7 +43,7 @@ typical structure of slide directory:
 - `slides.mdpp`: actual slides
 - `slides/`: per section `reveal-md` Markdown files
 - `Makefile`: generate output files (HTML, PDF)
-- `media/`: media files, as discussed in ["Media" section](#media)
+- `media/`: media files, as discussed in [the "Media" section](../../media/reading/README.md)
 
 output files are:
 

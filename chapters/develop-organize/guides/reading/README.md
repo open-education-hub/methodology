@@ -10,8 +10,8 @@ These demos are typically good ways to capture the attention of learners due to 
 
 Guides consist of:
 
-- text: created by following the guidelines in the ["Reading" section](#reading)
-- media: created by following the guidelines in the ["Media" section](#media)
+- text: created by following the guidelines in [the "Reading" section](../../reading/reading/README.md)
+- media: created by following the guidelines in [the "Media" section](../../media/reading/README.md)
 - support files: source code, skeleton files, application support files, fill-in-the blanks, templates
 
 A learner would read the text, view media files and use (hands-on) practice files to get replicate a practical result present by the guide.
