@@ -1,23 +1,22 @@
-#### Questions
+# Questions
 
-Owner: Teo Duțu
-Reviewer: Gabi Mocanu
+Questions are types of drills that require a **simple answer**.
+This is opposition to [tasks](tasks.md) that require a **detailed solution**.
 
-Questions are types of drills that require an answer.
-This is opposition to [tasks](tasks.md) that require a solution.
-
-Questions verify specific information and must be verifiable automatically. - RD: not necessarily automatically
+Questions verify specific information and must be verifiable automatically.
 Therefore, this section covers multiple-choice or simple answer questions, such as a word or a number.
 On the other hand, open-ended tasks such as essays, that are difficult to verify automatically, are considered drills.
+
+## Purpose
 
 Questions may be a form of live checks (as part of lectures or labs), self-study or formal examination.
 They provide a means to evaluate learner understanding.
 This creates a positive feedback loop between trainers and trainees whereby both can track the learners' progress in real time.
 
-Furthermore, questions serve as practice items for learners to solve at their own pace, in conjunction with drills.
+Furthermore, questions serve as practice items for learners to solve at their own pace, in conjunction with tasks.
 They may also be used for evaluation items that contribute to the learners' overall grade.
 
-Another desired aspect is that questions be easily extractable and convertible between formats, as described [below](#deployment), and repurposed by other trainers.
+Another desired aspect is that questions be easily extractable and convertible between formats, as described in the ["Deployment"](#deployment) section, and repurposed by other trainers.
 
 Despite all of their strengths, questions also come with a few shortcomings.
 One such downside is the binary nature of the feedback loop.
@@ -27,7 +26,7 @@ In addition, non-technical fields of study may find little benefit in questions 
 
 Even after accounting for these downsides, questions are an easy and automated way to provide quick feedback regarding learner knowledge, both to educators and to learners themselves.
 
-#### Steps to Develop a Question
+## Steps to Develop a Question
 
 To create a new question from scratch, a educator should:
 
@@ -41,7 +40,7 @@ To create a new question from scratch, a educator should:
 
 1. Publish and deploy it to the desired platform.
 
-#### Deployment
+## Deployment
 
 Each trainer uses a specific teaching rendering platform.
 Most platforms support questions in various formats, such as whether they are graded or ungraded, whether the answers are multiple choice or text boxes, etc.
@@ -75,9 +74,9 @@ In addition, each converter is bi-directional, being capable of converting eithe
 The image below displays how a file is converted from Markdown to Moodle XML.
 Any other format follows a similar route: `file in format A -> format A converter -> JSON -> format B converter -> file in format B`.
 
-![Converter Architecture](./media/converter_architecture.svg)
+![Converter Architecture](../media/converter_architecture.svg)
 
-#### Storage Format
+## Storage Format
 
 We are using Markdown as a generic storage format for questions because it is a text-based format, so it is suitable for written questions.
 Unlike more complex formats like LaTeX, Markdown offers a much simpler syntax which makes questions easier to contribute to by educators and learners alike.
@@ -87,6 +86,8 @@ Each question has a title written on the first line as a level 1 header (`#`).
 Each category is specified as a level 2 header (`##`).
 The contents of the category consist of the text beneath the header.
 For multiple-choice questions, correct answers are marked as list entries starting with `+`, while incorrect ones are marked with `-`.
+
+### Question File Format
 
 Every question will be stored in a separate Markdown file.
 See the example below:
@@ -121,10 +122,18 @@ Is this a sample question?
 The question is self-reflecting and its title is "Sample Question Name", so it is a sample question.
 ```
 
-Note that correct answers are marked as list entries starting with `+`, while incorrect ones are marked with `-`.
+Questions must respect the following rules:
+
+- List items, such as the one under the `## Tags` heading, are preceded by `-`.
+We recommend that you leave a blank line between list items.
+
+- Correct answers are marked as list entries starting with `+`, while incorrect ones are marked with `-`.
 There may be multiple correct answers.
-In addition, the headings starting with `##` are just keys for different sections of the question.
-Therefore, none of them are mandatory given our format and the developer is free to add or remove any of them.
+
+- The headings starting with `##` are keys for different sections of the question.
+None of them are mandatory given our format and the developer is free to add or remove any of them.
+
+### Directory Structure
 
 A typical question is to be stored in a separate directory within the repository, with the following components:
 
@@ -142,7 +151,7 @@ sample-question/
     └── video.mp4
 ```
 
-#### Converter
+## Converter
 
 Given the format above, we are providing a converter that can reformat questions from one format to another.
 It is bidirectional, so it can translate between any two formats, such as Markdown, [Moodle XML](https://docs.moodle.org/402/en/Moodle_XML_format), etc.
@@ -164,7 +173,7 @@ For example, the sample question above will be represented as a JSON as follows:
 }
 ```
 
-#### Usage
+### Usage
 
 To use this converter, a person is required to run the command below.
 The script will infer the fact that the input format is Markdown and the output is Moodle XML from the extensions of the input files (`.md` and `.mxml`).
