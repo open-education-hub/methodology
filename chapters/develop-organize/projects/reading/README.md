@@ -1,32 +1,35 @@
-### Projects
+# Projects
 
-Owner: Alex Apostolescu
-Reviewer: Gabi Mocanu
-
-Projects are practice items that are larger in scope and require more time, effort and resources to complete.
+Projects are practice items that are larger in scope and require extensive time, effort and resources to complete.
+The main goal of projects is to present intense challenges to learners, and, therefore, increase their skills and knowledge.
+When compared to [drills](../../drills/reading/README.md), projects aim to present a comprehensive narrative that can be divided into smaller, coherent steps.
 Projects are mainly used as content for [assignments](../../../use-deliver/assignments/reading/README.md).
-The main goal of projects is to provide intense challenges to learners, providing them an increase in their skills and knowledge.
 
 Typically, a project consists of a statement, support files and, where possible, validators / checkers.
-The statement presents the context, goals, resources, useful references.
+The statement presents the context, goals, resources, and useful references.
 Support files are pieces of digital information (source code, templates, application support files) that form a starting point for the project.
-Validators / checkers are scripts or applications that automate the verification and grading of the solution.
-Learners read the project statement, define a plan for reaching the state goals, implement a solution by using support files and then validate the solution with the checkers.
+Validators / checkers are applications that automate the verification and grading of solutions.
 
-Each project should have a reference solution.
-Generally, the reference solution to the project is to be kept in a private repository.
+Developing a solution in advance is strongly advised.
+It provides valuable insights into the completeness of the assignment statement and accompanying support files.
+Additionally, it facilitates the setup of an automated checker for closed-end assignments, guaranteeing that the submission infrastructure is properly configured to meet the requirements.
+The reference solution is initially stored in a private repository during the assignment's publication period.
+In certain situations, it may later become accessible to the public, serving as a point of reference for other learners.
 
-#### Storing Projects
+## Storing Projects
 
-The project directory comprises of:
+Projects are stored in the `projects/` directory of a given topic.
+Each project directory includes:
 
 - **Statement**
 
-  Serving as the central component of a project, the statement provides a comprehensive description for each task.
-  It can include an introduction, details about the evaluation process, and additional references.
-  Typically, this content is stored in Markdown or PDF format to accommodate media files.
+  The project statement is the core element of any project, offering a thorough description of its requirements.
+  Typically, it includes an overview of goals and requirements, details about the evaluation process, and additional references.
+  The structure of the project statement sets the tone for the entire project.
+  Choosing to divide the requirements into tasks that serve as checkpoints for tracking progress can enhance readability and improve the overall learning experience.
+  This content is stored in Markdown format with media files.
 
-- **Skeleton Files**
+- **Support Files**
 
   These act as the initial foundation for the project, establishing a consistent framework for all solutions.
   The project's skeleton may range from fill-in-the-blanks outlines and templates to straightforward guidelines.
@@ -36,37 +39,38 @@ The project directory comprises of:
 
   These files have no direct impact on solving the assignment.
   Typically, they address peripheral aspects of the project, such as grammar checks, line/word counts, directory organization etc.
-  They consist of automated scripts or configuration files intended to assisting the learner or the educator in setting up and evaluating the project.
+  They consist of automated programs or configuration files intended to assisting the learner or the educator in setting up and evaluating the project.
 
-- **Automated Evaluation Program**
+- **Automated Validators**
 
-  As the name suggests, this script is designed to partially or fully assess the correctness of a learner's solution.
+  As the name suggests, these programs are designed to partially or fully assess the correctness of a learner's solution.
   While it aligns conceptually with utility files, it is more specialized and not always feasible – assignments involving open-ended tasks, proofs, or creativity might not inherently support automated verification.
-  A valuable indicator of the viability of an automated checker is the presence of skeleton files.
+  A valuable indicator of the viability of an automated validator is the presence of skeleton files.
 
 A general structure for the project directory is:
 
 ```bash
-|-- Statement.md
+|-- README.md
 |-- media
 |   |-- img1.png
 |   `-- img2.png
-|── utility
+|-- utility
 |   |-- spellcheck.sh
 |   |-- linter.sh
 |   `-- linter.yml
 |-- skeleton
-|   `-- template
-`-- checker.py
+|   `-- template
+`-- checker
+    `-- checker.py
 ```
 
-#### Automated Scripts
+## Automated Validators
 
 Typically kept in a separate directory, named `utility/` in our case, these files do not directly influence solution development.
 Instead, they handle the meta aspects of the solution, focusing on consistency.
 This includes tasks like line or word counts, grammar checks, and maintaining the structure of write-ups.
 
-These programs have a broad scope and are often readily accessible online as third-party tools, as presented in [the "Support Infrastructure" section](../../../infrastructure/overview/reading/README.md).
+These programs have a broad scope and are often readily accessible online as third-party tools, as presented in the ["Support Infrastructure" section](../../../infrastructure/overview/reading/README.md).
 These tools are crafted for easy deployment without intricate configurations.
 However, for tailored use-cases, they provide a "control panel" in the form of a configuration file, usually in formats such as `.yml` or `.json`.
 
@@ -74,7 +78,7 @@ To establish a strong groundwork for frontend checks in a project, using an all-
 In our specific context, the foundation for linting relies on [`super-linter`](https://github.com/super-linter/super-linter), and spellchecking is facilitated through [`spellcheck` GitHub action](https://github.com/rojopolis/spellcheck-github-actions), both having minimal setup.
 
 On the opposite side of generality, we encounter the assignment checker.
-Unlike online tools, this script needs insight on the underlying aspects of the project to perform its task effectively.
+Unlike online tools, this program requires insight on the underlying aspects of the project to perform its task effectively.
 As previously mentioned, the scenarios where such a checker is applicable remain restricted.
 Thus, we offer a few guiding principles for designing a checker:
 
@@ -89,6 +93,7 @@ Thus, we offer a few guiding principles for designing a checker:
 
 - **Input Formats**: Opt for text-based input whenever applicable, as it accommodates various assignment types.
   In cases requiring mathematical expressions or formulae, embrace `LaTeX` format for clarity and accuracy.
+  It also has the advantage of being supported by `Github Markdown`.
   Do not hesitate to create skeleton files to enhance the automated checker's ability to interpret solutions accurately.
 
 - **Limitations**: In many instances, the automated checker consists of guidelines and it should not supersede the educator's judgment.
