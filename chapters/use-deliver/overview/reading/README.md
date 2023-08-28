@@ -18,5 +18,5 @@ Sections:
 - [Lectures](../../lectures/reading/README.md)
 - [Practical Sessions](../../practical-sessions/reading/README.md)
 - [Assignments](../../assignments/reading/README.md)
-- [Exams](../../exams/reading/README.md)
+- [Tests](../../tests/reading/README.md)
 - [Self-Study](../../self-study/reading/README.md)
