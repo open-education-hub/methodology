@@ -1,21 +1,16 @@
-### Self-Study
-
-Owner: Gabi Mocanu
-Reviewer: Alex Apostolescu
+# Self-Study
 
 Self-study is the process of independently learning outside of structural classroom settings or formal instruction.
 
 There are multiple reasons learners find self-studying hard:
 
-- **Lack of structure**: Learning without a structure can lead to potential confusion and inefficiency.
-- **Access to resources**: Even if there are a lot of resources on the internet, they are not always easy to find.
-- **Lack of feedback**: Without regular feedback from the educator, learners tend to lose motivation, potentially leading to gaps in knowledge.
-- **Need for help**: Without help from the educator, learners may not be able to solve the problems on their own and this can lead to frustration.
+- **Resources**: Accessing materials on the internet can be challenging due to the lack of structure and the difficulty in finding reliable content.
+- **Need for assistance**: Without feedback or assistance from the educator, learners may not be able to solve the problems on their own and this can lead to frustration and lose motivation.
 - **Difficulty**: The subjects must have an adequate difficulty in order not to demotivate learners.
 
 In order to overcome these problems, we can improve the following:
 
-#### Organize Resources
+## Organize Resources
 
 The material is to be organized into chapters.
 Each chapter will encompass one or more subjects.
@@ -35,16 +30,20 @@ A general example of the following structure is shown below or can be found [her
         `-- topic-2
 ```
 
-#### Drills
+## Drills
 
 To improve the learning experience and for the learners to have a method to test their knowledge, [drills](../../../develop-organize/drills/reading/README.md) can be used.
-Drills typically consist of questions, more on the theoretical side, and tasks, more on the practical side.
 The best way is to use both types of drills and reference them in each subject.
 In this way, the learner will know in which order he should go through the material.
 Their difficulty should be in an appropriate way, starting from easy exercises and reaching the hard ones.
 At the end, some open-ended questions can be used to test the learner's knowledge and their understanding of the subject.
 
-#### Quick Feedback
+## Lecture Notes
+
+Lecture notes can be used to summarize the content of the chapter and to provide a reference for the exercises.
+The slides used during the lectures are also useful for self-study as they can be read easily at any time.
+
+## Quick Feedback
 
 After reading and solving drills, the learner should be able to get a quick feedback about their understanding of the subject.
 Getting a quick feedback keep the learner motivated and engaged.
