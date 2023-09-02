@@ -6,6 +6,8 @@ Reviewer: Răzvan Deaconescu
 Present the structure and organization of a content repository.
 Detail its hierarchy (a `tree` command-like output) and summarize the types of contents in its subsections.
 
+The mapping between types of content and teaching activities is presented in the [Introduction](../../../../README.md).
+
 Sections:
 
 - [Reading](../../reading/reading/README.md)

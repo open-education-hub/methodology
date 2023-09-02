@@ -10,7 +10,8 @@ Present:
   each is having a dedicated section
 
 This chapter describes how each teaching activity is mapped to different types of content.
-Put differently, it shows how each content type is to be used in the various teaching stages.
+
+The mapping between teaching activities and types of content is presented in the [Introduction](../../../../README.md).
 
 Sections:
 
