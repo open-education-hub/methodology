@@ -1,17 +1,47 @@
-## Building Blocks
+# Building Blocks
 
-Owner: Alex Apostolescu
-Reviewer: Ștefan Jumărea
+The top-level approach for building materials for a subject involves four key components:
 
-Present the high-level organization of a course or a subject that will be part of a repository:
+- **The content repository**
 
-1. A public content repository, organized and used as shown in [the "Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
-1. A private repository, with reference solutions and other items we want to keep private.
-1. An implementation-specific repository, used by the organization or person who does the actual content delivery, organized as detailed in [the "Using and Delivering Content" section](../../../use-deliver/overview/reading/README.md).
-1. Support infrastructure for storing, publishing, validating content and providing support in education activities (quiz generation, automatic submission checking etc.), detailed in [the "Support Infrastructure" session](../../../infrastructure/overview/reading/README.md).
+  This is a public repository that serves as a storing point for educational materials.
+  It follows the structure outlined in the ["Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md) and does not place restrictions on how information is presented.
 
-Of relevance are the roles of those who manage, develop or contribute to content, detailed in [the "Roles" section](../../../roles/overview/reading/README.md).
+- **The delivery repository**
 
-And the guidelines for maintaining content, presented in [the "Curating and Maintaining Content" section](../../../curate-maintain/overview/reading/README.md).
+  This repository is an extension of **the content repository** and is dedicated to structuring and customizing content for delivery.
+  It follows the guidelines in the ["Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
 
-Conventions used in this methodology are detailed in [the "Conventions" section](../../conventions/reading/README.md).
+- **The solutions repository**
+  
+  This is a private repository that holds reference solutions for items such as [tasks](../../../develop-organize/drills/reading/tasks.md) and [projects](../../../develop-organize/projects/reading/README.md).
+  The reference solutions are kept private because they are used exclusively in the grading process.
+  Over time, some items from this repository may transition to the **content repository**.
+  They will serve as examples or proof of concepts for tasks, particularly when they are no longer needed for grading purposes.
+
+- **The infrastructure repository**
+
+  Contains a set of tools designed to manage tasks such as content validation, publishing, and submission.
+  These tools are instrumental in simplifying the overall process of creating, developing, and delivering content.
+
+  The infrastructure components are integrated throughout this repository and are accessible in various forms, including [linters](../../../infrastructure/linters/reading/README.md) and [automated validators or checkers](../../../infrastructure/checkers/reading/README.md).
+
+  For a more detailed exploration of these tools, you can refer to the comprehensive information provided in the ["Support Infrastructure" section](../../../infrastructure/overview/reading/README.md).
+
+In order to effectively manage these repositories, we strongly recommend establishing clear roles at the organizational level.
+In our view, the main roles to consider are:
+
+- **content developer** - maintains and updates the content from the content and solutions repositories.
+- **content curator** - evaluates suggestions from learners or contributors, provides feedback on those suggestions, and then incorporates the accepted ideas into the educational materials.
+- **infrastructure manager** - maintains and develops the infrastructure repository.
+- **educator** - focuses exclusively on the delivery repository and is dedicated to making sure information is presented in the best way for students to learn effectively.
+- **learner** - uses the delivery repository as a consumer of educational content.
+  He can also become a **contributor** by providing feedback and suggestions based on his learning experiences.
+- **contributor** - suggests improvements for any of the public repositories.
+  It is distinct from the **learner role** because contributors do not necessarily participate in the educational activities, and it differs from **content developer** because its suggestions require approval from the **content curators**.
+
+For an in-depth description of each of these roles and the specific workflows in which they engage, you can refer to the ["Roles" section](../../../roles/overview/reading/README.md).
+
+For more details on the topic of content management, we suggest checking the guidelines for maintaining content, presented in the ["Curating and Maintaining Content" section](../../../curate-maintain/overview/reading/README.md), and the guidelines for developing content, presented in the ["Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
+
+Conventions used in this methodology are detailed in the ["Conventions" section](../../conventions/reading/README.md).
