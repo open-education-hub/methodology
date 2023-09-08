@@ -1,8 +1,5 @@
 ### Media
 
-Owner: Răzvan Nițu
-Reviewer: Liza Babu
-
 The media content type refers to audio, visual or audiovisual educational materials.
 Images, videos, audio files, educational video games represent examples of such content.
 
@@ -11,8 +8,8 @@ As such, media is typically embedded within the text that is destined reading, s
 
 When developing media items, it is important to follow the guidelines below:
 
-- use an open source or free development tool.
-- store both the output (the actual image, video etc.) and the editable building blocks.
+- use an open source or free development tool
+- store both the output (the actual image, video etc.) and the editable building blocks
 
 #### Images
 
