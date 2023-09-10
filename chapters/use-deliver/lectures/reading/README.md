@@ -1,17 +1,14 @@
-### Lectures
-
-Owner: Răzvan Deaconescu
-Reviewer: Alex Apostolescu
+# Lectures
 
 Lectures are teaching activities that typically take place with a larger audience and are asymmetrical: a lecturer mostly talks while the audience mostly listens.
 Interactivity is important but is limited by the larger audience: not all participants will be able to actively engage in conversations;
-however, items that don't require conversation, such as quizzes, are a good way to engage all participants, as we discuss below.
-Practical sessions, on the other hand, put participants in the position where they work on concrete items, and get involved in smaller groups discussions, with a more symmetrical interaction.
+however, items that don't require conversation, such as [questions](../../../develop-organize/drills/reading/questions.md), are a good way to engage all participants, as we discuss below.
+Practical sessions, on the other hand, put participants in the position where they work on concrete items ([tasks](../../../develop-organize/drills/reading/tasks.md)), and get involved in smaller groups discussions, with a more symmetrical interaction.
 
 Lectures benefit from content materials that can be used by educators as preparation and / or during the actual delivery.
 In the following sections, we detail steps in preparing and (re)using lecture materials in Open Education Hub.
 
-#### Lecture Materials
+## Lecture Materials
 
 We organize lecture materials according to lecture-specific activities.
 We reference them as presented in [the "Developing and Organizing Content" section](../../../develop-organize/overview/reading/README.md).
@@ -39,12 +36,12 @@ We reference them as presented in [the "Developing and Organizing Content" secti
 - **Offline self-study materials** are to be used by participants outside lectures.
   They are detailed in [the "Self-Study" section](../../self-study/reading/README.md).
 
-As other types of content, lecture materials are publicly available, and also open to contributions.
+As other types of content, lecture materials are publicly available, and also open for contributions.
 Lecture materials are meant to be used live by educators during lectures and then offline by learners, to improve gained knowledge and skills.
 Visual support materials are directly available on the course website;
 the other materials are available either as downloadable archives or directly in the course repository.
 
-#### Lecture Content Structure
+## Lecture Content Structure
 
 Educators have individual styles and preferences.
 Hence, they would define their preferred order of presenting topics and decide on the weight of each topic.
