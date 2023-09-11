@@ -38,6 +38,11 @@ In this way, the learner will know in which order he should go through the mater
 Their difficulty should be in an appropriate way, starting from easy exercises and reaching the hard ones.
 At the end, some open-ended questions can be used to test the learner's knowledge and their understanding of the subject.
 
+## Lecture Notes
+
+Lecture notes can be used to summarize the content of the chapter and to provide a reference for the exercises.
+The slides used during the lectures are also useful for self-study as they can be read easily at any time.
+
 ## Quick Feedback
 
 After reading and solving drills, the learner should be able to get a quick feedback about their understanding of the subject.
