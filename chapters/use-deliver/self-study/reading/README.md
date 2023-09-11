@@ -4,10 +4,8 @@ Self-study is the process of independently learning outside of structural classr
 
 There are multiple reasons learners find self-studying hard:
 
-- **Lack of structure**: Learning without a structure can lead to potential confusion and inefficiency.
-- **Access to resources**: Even if there are a lot of resources on the internet, they are not always easy to find.
-- **Lack of feedback**: Without regular feedback from the educator, learners tend to lose motivation, potentially leading to gaps in knowledge.
-- **Need for help**: Without help from the educator, learners may not be able to solve the problems on their own and this can lead to frustration.
+- **Resources**: Accessing materials on the internet can be challenging due to the lack of structure and the difficulty in finding reliable content.
+- **Need for assistance**: Without feedback or assistance from the educator, learners may not be able to solve the problems on their own and this can lead to frustration and lose motivation.
 - **Difficulty**: The subjects must have an adequate difficulty in order not to demotivate learners.
 
 In order to overcome these problems, we can improve the following:
