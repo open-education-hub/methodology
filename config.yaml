@@ -15,29 +15,29 @@ docusaurus:
       - Building Blocks:
           path: chapters/building-blocks/
           subsections:
-            - Overview: overview/reading/README.md
-            - Conventions: conventions/reading/README.md
+            - Overview/: overview/reading/
+            - Conventions/: conventions/reading/
       - Roles:
           path: chapters/roles/
           subsections:
-            - Overview: overview/reading/README.md
+            - Overview/: overview/reading/
       - Support Infrastructure:
           path: chapters/infrastructure/
           subsections:
-            - Overview: overview/reading/README.md
-            - Collaboration: collaboration/reading/README.md
-            - Processing: processing/reading/README.md
-            - Checkers: checkers/reading/README.md
-            - Linters: linters/reading/README.md
-            - Digital Rewards: digital-rewards/reading/README.md
+            - Overview/: overview/reading/
+            - Collaboration/: collaboration/reading/
+            - Processing/: processing/reading/
+            - Checkers/: checkers/reading/
+            - Linters/: linters/reading/
+            - Digital Rewards/: digital-rewards/reading/
       - Developing and Organizing Content:
           path: chapters/develop-organize/
           subsections:
-            - Overview: overview/reading/README.md
-            - Reading: reading/reading/README.md
-            - Media: media/reading/README.md
-            - Slides: slides/reading/README.md
-            - Guides: guides/reading/README.md
+            - Overview/: overview/reading/
+            - Reading/: reading/reading/
+            - Media/: media/reading/
+            - Slides/: slides/reading/
+            - Guides/: guides/reading/
             - Drills:
                 path: drills/reading/
                 extra:
@@ -46,23 +46,29 @@ docusaurus:
                   - Overview: README.md
                   - Questions: questions.md
                   - Tasks: tasks.md
-            - Projects: projects/reading/README.md
+            - Projects:
+                path: projects/reading/
+                extra:
+                  - ../media/
+                subsections:
+                  - Overview: README.md
+                  - Guide: guide.md
       - Using and Delivering Content:
           path: chapters/use-deliver/
           subsections:
-            - Overview: overview/reading/README.md
-            - Lectures: lectures/reading/README.md
-            - Practical Sessions: practical-sessions/reading/README.md
-            - Assignments: assignments/reading/README.md
-            - Tests: tests/reading/README.md
-            - Self-study: self-study/reading/README.md
+            - Overview/: overview/reading/
+            - Lectures/: lectures/reading/
+            - Practical Sessions/: practical-sessions/reading/
+            - Assignments/: assignments/reading/
+            - Tests/: tests/reading/
+            - Self-study/: self-study/reading/
       - Curating and Maintaining Content:
           path: chapters/curate-maintain/
           subsections:
-            - Overview: overview/reading/README.md
-            - Content: content/reading/README.md
-            - Communication: communication/reading/README.md
-            - Community: community/reading/README.md
+            - Overview/: overview/reading/
+            - Content/: content/reading/
+            - Communication/: communication/reading/
+            - Community/: community/reading/
     config_meta:
       title: Open Education Hub Methodology
       url: http://localhost/
