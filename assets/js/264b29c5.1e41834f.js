@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkopen_edu_methodology=self.webpackChunkopen_edu_methodology||[]).push([[547],{7249:l=>{l.exports=JSON.parse('{"title":"Building Blocks","slug":"/Building Blocks/","permalink":"/methodology/Building Blocks/","navigation":{"next":{"title":"Building Blocks","permalink":"/methodology/Building Blocks/"}}}')}}]);
