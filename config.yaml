@@ -12,6 +12,7 @@ docusaurus:
     course_name: OpenEdu Methodology
     sidebar: js
     structure:
+      - Introduction: landing-page/README.md
       - Building Blocks:
           path: chapters/building-blocks/
           subsections:
