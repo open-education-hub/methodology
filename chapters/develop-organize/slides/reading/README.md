@@ -1,8 +1,5 @@
 ### Slides
 
-Owner: Răzvan Deaconescu
-Reviewer: Liza Babu
-
 Slides are the main support material for live activities, such as lectures.
 They can also be used during practical sessions or talks (such as conferences).
 The main role of slides is to provide the visual support material for presenting information and engaging participants in discussions.
