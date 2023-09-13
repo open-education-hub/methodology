@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkopen_edu_methodology=self.webpackChunkopen_edu_methodology||[]).push([[778],{9164:e=>{e.exports=JSON.parse('{"title":"Roles","slug":"/Roles/","permalink":"/methodology/Roles/","navigation":{"previous":{"title":"Building Blocks","permalink":"/methodology/Building Blocks/"},"next":{"title":"README","permalink":"/methodology/Roles/"}}}')}}]);
