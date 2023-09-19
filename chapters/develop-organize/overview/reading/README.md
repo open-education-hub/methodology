@@ -74,4 +74,4 @@ For real-life use cases, visit the existing educational content repositories:
 - the [`ccas` repository](https://github.com/open-education-hub/ccas), rendered [here](https://open-education-hub.github.io/ccas/)
 - the [`binary-security` repository](https://github.com/open-education-hub/binary-security), rendered [here](https://open-education-hub.github.io/binary-security/)
 
-For a mapping between the content types and teaching activities visit [Introduction](../../../../README.md).
+For a mapping between the content types and teaching activities visit the [Introduction](../../../landing-page/README.md) page.

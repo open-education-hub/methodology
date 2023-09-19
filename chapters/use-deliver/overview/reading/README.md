@@ -11,7 +11,7 @@ Present:
 
 This chapter describes how each teaching activity is mapped to different types of content.
 
-The mapping between teaching activities and types of content is presented in the [Introduction](../../../../README.md).
+The mapping between teaching activities and types of content is presented in the [Introduction](../../../landing-page/README.md).
 
 Sections:
 
