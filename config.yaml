@@ -12,7 +12,7 @@ docusaurus:
     course_name: OpenEdu Methodology
     sidebar: js
     structure:
-      - Introduction: landing-page/README.md
+      - Introduction: chapters/landing-page/README.md
       - Building Blocks:
           path: chapters/building-blocks/
           subsections:
@@ -31,11 +31,11 @@ docusaurus:
             - Checkers/: checkers/reading/
             - Linters/: linters/reading/
             - Digital Rewards:
-                path: digital-rewards/reading/
+                path: digital-rewards/
                 extra:
-                  - ../media/
+                  - media/
                 subsections:
-                  - Overview: README.md
+                  - Overview/: reading/
       - Developing and Organizing Content:
           path: chapters/develop-organize/
           subsections:
@@ -45,20 +45,20 @@ docusaurus:
             - Slides/: slides/reading/
             - Guides/: guides/reading/
             - Drills:
-                path: drills/reading/
+                path: drills/
                 extra:
-                  - ../media/
+                  - media/
                 subsections:
-                  - Overview: README.md
-                  - Questions: questions.md
-                  - Tasks: tasks.md
+                  - Overview/: reading/
+                  - Questions: reading/questions.md
+                  - Tasks: reading/tasks.md
             - Projects:
-                path: projects/reading/
+                path: projects/
                 extra:
-                  - ../media/
+                  - media/
                 subsections:
-                  - Overview: README.md
-                  - Guide: guide.md
+                  - Overview/: reading/
+                  - Guide: reading/guide.md
       - Using and Delivering Content:
           path: chapters/use-deliver/
           subsections:
