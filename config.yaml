@@ -44,6 +44,8 @@ docusaurus:
                 - Reading: reading/read.md
           - Checkers:
               path: chapters/infrastructure/checkers
+              extra:
+                - media/
               subsections:
                 - Reading: reading/read.md
           - Linters:
