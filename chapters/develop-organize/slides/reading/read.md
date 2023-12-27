@@ -1,4 +1,4 @@
-### Slides
+# Slides
 
 Slides are the main support material for live activities, such as lectures.
 They can also be used during practical sessions or talks (such as conferences).
@@ -15,7 +15,7 @@ Slides should ideally have the following properties:
 - be easy to create by content developers
 - as with other Open Education Hub content types, allow easy improvements and contributions
 
-#### `reveal-md`
+## `reveal-md`
 
 Our choice of engine for storing and rendering slides is [`reveal-md`](https://github.com/webpro/reveal-md).
 `reveal-md` is based on [`reveal.js`](https://revealjs.com/) and allows the development of web-rendered sleek slides.
@@ -34,7 +34,7 @@ links to documentation
 
 potential items for the future, potential replacement of `markdown-pp`
 
-#### Slide Directories
+## Slide Directories
 
 structure slides in directories as slide decks, following a structure / narrative for the section / chapter
 
@@ -43,7 +43,7 @@ typical structure of slide directory:
 - `slides.mdpp`: actual slides
 - `slides/`: per section `reveal-md` Markdown files
 - `Makefile`: generate output files (HTML, PDF)
-- `media/`: media files, as discussed in [the "Media" section](../../media/reading/README.md)
+- `media/`: media files, as discussed in [the "Media" section](../../media/reading/read.md)
 
 output files are:
 
@@ -54,13 +54,13 @@ output files are:
   open `_site/index.html`
   to be viewed with web browser
 
-#### Presenting Slides
+## Presenting Slides
 
 2D view of slides for `markdown-pp`
 
 keyboard shortcuts
 
-#### Slide Contents
+## Slide Contents
 
 index slide
 

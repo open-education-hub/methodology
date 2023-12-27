@@ -6,7 +6,7 @@ As a consequence, the content should be presented in a much more friendly and in
 To that end, the content is processed so that it is deliverable to a publisher (website) in a more approachable way.
 
 The types of content that need to be processed vary with course requirements and require different actions in order to be rendered.
-The various types of content are defined and explained in the [Developing and Organizing Content](../../../develop-organize/overview/reading/README.md) chapter.
+The various types of content are defined and explained in the [Developing and Organizing Content](../../../develop-organize/overview/reading/read.md) chapter.
 
 The rendered output that we recommend is a website generated using a static website generator.
 The usage of [`Docusaurus`](https://docusaurus.io/) is also recommended, but other static website generators ([`Hugo`](https://gohugo.io/), [`Docsy`](https://www.docsy.dev/), [`Sphinx`](https://www.sphinx-doc.org/en/master/)) can be used.
@@ -33,15 +33,18 @@ The main way to use the Open Education Builder is by customizing the default act
 
 For configuration options, advanced usage and contributions, please refer to the [documentation](https://open-education-hub.github.io/openedu-builder/) and the [Open Education Builder repository](https://github.com/open-education-hub/openedu-builder)
 
-### Usage examples
+## Usage examples
 
 The recommended usage of the Open Education Builder is through the provided Docker container.
 
 In this sense, one would extend the provided container by creating a new Dockerfile and using the following line at the beginning:
+
 ```Dockerfile
 FROM ghcr.io/open-education-hub/openedu-builder:0.5.1
 ```
+
 Following, any additional dependencies (e.g. `Docusaurus`, `reveal-md`) need to be installed.
+
 ```Dockerfile
 # Install node LTS (16)
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && \
@@ -57,7 +60,7 @@ RUN npm install create-docusaurus@2.1.0
 
 A [sample Dockerfile](https://github.com/open-education-hub/oer-template/blob/main/Dockerfile) that installs the technologies we recommend is provided in the [`oer-template`](https://github.com/open-education-hub/oer-template) repository.
 
-Additionally, we also provide a Github Action that rebuilds and runs the Docker container and publishes the resulting website whenever content is modified, [here](https://github.com/open-education-hub/oer-template/blob/main/.github/workflows/deployment.yml).
+Additionally, we also provide a GitHub Action that rebuilds and runs the Docker container and publishes the resulting website whenever content is modified, [here](https://github.com/open-education-hub/oer-template/blob/main/.github/workflows/deployment.yml).
 
 The behavior of the Open Education Builder is controlled through a configuration file that has to be named `config.yaml` and placed at the root of your repository.
 
@@ -116,20 +119,22 @@ docusaurus:
 
 ```
 
-#### Docusaurus
+## Docusaurus
 
 Docusaurus requires a directory structure similar to this:
+
+```text
+docs/
+`-- Labs/
+    `-- Compute/
+        |-- media/
+        |-- quiz/
+        |-- overview.md
+        |-- processes.md
+        `-- threads.md
 ```
-docs
-└── Labs
-    └── Compute
-        ├── media
-        ├── quiz
-        ├── overview.md
-        ├── processes.md
-        └── threads.md
-```
-This is different from the structure proposed in the [Developing and Organizing Content](../../../develop-organize/overview/reading/README.md) chapter.
+
+This is different from the structure proposed in the [Developing and Organizing Content](../../../develop-organize/overview/reading/read.md) chapter.
 We have developed the `Docusaurus` plugin for the `Open Education Builder` in order to facilitate this reorganization.
 
 The most important option of this plugin is the `structure` option, which defines the order of the chapters and their sections and subsections, together with the source of the content.
@@ -150,12 +155,20 @@ A simplified example, taken from the [Operating Systems](https://github.com/open
               - Threads: threads.md
 # [...]
 ```
+
 A section (such as `Lab` or `Compute` above) can either be followed by a list of subsections (as is the case for `Lab`) or by a few options.
 In the case of the `Compute` section, it has 3 options: `path`, `extra` and `subsections`.
 
-- The `subsections` option specifies the subsections of the current section. These can be pages that will be rendered (as in this example) or other sections.
+- The `subsections` option specifies the subsections of the current section.
+  These can be pages that will be rendered (as in this example) or other sections.
 - The `extra` option specifies other files that you want to copy, such as media files.
 - The `path` option specifies a source path that will be prepended to any other path that follows in the tree.
+
 In this case, it is used to avoid repetition when specifying the location of the subsections.
 
-For more advanced usage examples and other options for the `Docusaurus` plugin, you can check the [documentation](https://open-education-hub.github.io/openedu-builder/plugins/docusaurus) of the Open Education Builder and the more complex [`config.yaml`](https://github.com/open-education-hub/operating-systems/blob/main/config.yaml) of the Operating Systems repository.
+For more advanced usage examples and other options for the `Docusaurus` plugin, you can check the [documentation](https://open-education-hub.github.io/openedu-builder/plugins/docusaurus) of the Open Education Builder.
+And the more effective `config.yaml` files used in existing repositories:
+
+- [`operating-systems`](https://github.com/open-education-hub/operating-systems/blob/main/config.yaml)
+- [`ccas`](https://github.com/open-education-hub/ccas/blob/main/config.yaml)
+- [`binary-security`](https://github.com/open-education-hub/binary-security/blob/main/config.yaml)

@@ -1,4 +1,4 @@
-## Support Infrastructure
+# Support Infrastructure
 
 Owner: Sergiu Weisz
 Reviewer: Vlad Năstase
@@ -17,7 +17,7 @@ Present infrastructure components:
 
 This chapter describes the various technologies used to develop, store, deploy and publish the educational content.
 
-### Third-Party (Open) Tools Employed
+## Third-Party (Open) Tools Employed
 
 As part of content development, delivery and consumption, third-party tools will be used to enhance the educator or learner experience.
 
@@ -28,13 +28,13 @@ Common examples for tools that projects integrate into their workflows:
 - content compilers
 - content deployment workflows
 
-#### When Should You use a Third-Party Tool?
+## When Should You use a Third-Party Tool?
 
 - you need to automate a process
 - you need external functionality that has already been implemented
 - you need to scale out a class use case that can only be done with mature tools
 
-#### What to Look for in an Open Source Project
+## What to Look for in an Open Source Project
 
 When choosing a tool to be employed during any phase of the class lifecycle, one has to mind the following factors:
 
@@ -55,8 +55,8 @@ For example, when Meta has chosen to use a certain file deployment solution, it 
 
 Sections:
 
-- [Collaboration](../../collaboration/reading/README.md)
-- [Processing](../../processing/reading/README.md)
-- [Validators and Checkers](../../checkers/reading/README.md)
-- [Linters](../../linters/reading/README.md)
-- [Digital Rewards](../../digital-rewards/reading/README.md)
+- [Collaboration](../../collaboration/reading/read.md)
+- [Processing](../../processing/reading/read.md)
+- [Validators and Checkers](../../checkers/reading/read.md)
+- [Linters](../../linters/reading/read.md)
+- [Digital Rewards](../../digital-rewards/reading/read.md)

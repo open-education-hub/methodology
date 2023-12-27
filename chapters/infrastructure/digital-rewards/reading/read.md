@@ -1,4 +1,4 @@
-### Digital Rewards
+# Digital Rewards
 
 Teaching paradigms often involve the use of a reward system to incentivize learners to study.
 To enable such teaching techniques, we offer an infrastructure for cryptocurrency rewards with the purpose of stimulating both learning and contributions to the educational content.

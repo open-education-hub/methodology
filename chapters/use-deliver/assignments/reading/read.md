@@ -5,7 +5,7 @@ Their primary objective is to provide learners the flexibility to work through t
 
 Delivering an assignment typically follows a given set of steps:
 
-- [Preparing Assignment Contents](#preparing-an-assignment)
+- [Preparing Assignment Contents](#preparing-assignment-contents)
 - [Launching Assignments](#launching-assignments)
 - [Providing Support](#providing-support)
 - [Grading Assignments](#grading-assignments)
@@ -13,16 +13,16 @@ Delivering an assignment typically follows a given set of steps:
 ## Preparing Assignment Contents
 
 The initial phase in crafting an assignment involves determining its overall structure.
-Viable options include a combination of [tasks](../../../develop-organize/drills/reading/tasks.md) and [questions](../../../develop-organize/drills/reading/questions.md), or a [project](../../../develop-organize/projects/reading/README.md).
+Viable options include a combination of [tasks](../../../develop-organize/drills/reading/tasks.md) and [questions](../../../develop-organize/drills/reading/questions.md), or a [project](../../../develop-organize/projects/reading/read.md).
 When opting for drills and questions, the procedure is relatively straightforward;
 reference them in the assignment statement and proceed directly to setting up the validation infrastructure.
 
 However, if you decide to use a project, there are several fundamental components to ensure, such as the assignment statement, support files, and the reference solution.
-These steps are detailed in the ["projects" section](../../../develop-organize/projects/reading/README.md).
+These steps are detailed in the ["projects" section](../../../develop-organize/projects/reading/read.md).
 
 The last steps involve setting up the validation infrastructure, which involves creating a submission form, and establishing channels for assistance.
 Detailed information about the support channels can be found in the ["Providing Support" section](#providing-support).
-Regarding the infrastructure setup, you can access guidelines by referring to the ["linters" section](../../../infrastructure/linters/reading/README.md), and ["checkers" section](../../../infrastructure/checkers/reading/README.md).
+Regarding the infrastructure setup, you can access guidelines by referring to the ["linters" section](../../../infrastructure/linters/reading/read.md), and ["checkers" section](../../../infrastructure/checkers/reading/read.md).
 
 ## Launching Assignments
 
@@ -88,7 +88,7 @@ This can be done either collectively after all submissions are uploaded or, for 
 In the latter scenario, the grade for the assignment is the grade of the last submission.
 Putting this solution into practice involves utilizing external platforms like [`GitLab`](https://gitlab.com/), which enable the execution of actions based on specific events—such as submissions in our case.
 This prompt evaluation guarantees that students remain on the right track while tackling the assignment and that their solutions progressively improve.
-Moreover, the automated checker transforms homework assignments into valuable [self-study](../../self-study/reading/README.md) resources, given that the feedback is not dependent on human intervention.
+Moreover, the automated checker transforms homework assignments into valuable [self-study](../../self-study/reading/read.md) resources, given that the feedback is not dependent on human intervention.
 
 However, the more typical scenario involves assignments that cannot be entirely automated.
 In such situations, one approach is to motivate students to submit their work ahead of time, granting more time for thorough grading of submissions.

@@ -1,10 +1,10 @@
-### Reading
+# Reading
 
 The reading content type is the most common form of storing educational material (or information, in general).
 As the name suggests the content is developed to be read, therefore it comes in the form of text.
 
 The reading content type is typically used standalone or in conjunction with other types of content to explain topics.
-When delivering content, reading is used in conjunction with [media](../../media/reading/README.md) for offline self-study support as part of [lectures](../../../use-deliver/lectures/reading/README.md) or combined with [media](../../media/reading/README.md), [guides](../../guides/reading/README.md) and [drills](../../drills/reading/README.md) as part of [practical-sessions](../../../use-deliver/practical-sessions/reading/README.md).
+When delivering content, reading is used in conjunction with [media](../../media/reading/read.md) for offline self-study support as part of [lectures](../../../use-deliver/lectures/reading/read.md) or combined with [media](../../media/reading/read.md), [guides](../../guides/reading/read.md) and [drills](../../drills/reading/read.md) as part of [practical-sessions](../../../use-deliver/practical-sessions/reading/read.md).
 
 To develop reading content we use the [Markdown syntax](https://www.markdownguide.org/basic-syntax) and the following guidelines:
 

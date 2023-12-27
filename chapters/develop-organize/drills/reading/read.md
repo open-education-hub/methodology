@@ -3,7 +3,7 @@
 Drills are educational activities designed to reinforce learning through repetitive practice.
 The primary goal of drills is to promote mastery and internalization of skills or knowledge.
 By repeating tasks or exercises, learners can reinforce their understanding and enhance their ability to apply learned concepts effectively.
-Drills share similarities with [projects](../../projects/reading/README.md).
+Drills share similarities with [projects](../../projects/reading/read.md).
 The difference is that while drills are repetitive, simple, and focused on a single skill or concept, projects are more complex, broader in scope and with a larger variety of solutions.
 
 Some key considerations when designing drills include:
@@ -33,7 +33,7 @@ these questions are easy to grade automatically.
 There can be questions with a clear, short answer, that is not easy to be grade automatically.
 There can be essays / open-ended questions that require a personal take on a topic.
 There can be problems with a statement and a solution that's required to be written down by the learner.
-There can be practice items that require the learner to construct a solution as a digital application, a solution that ca be passed through an automated checking and grading system, as presented in [the "Validators and Checkers" section](../../../infrastructure/checkers/reading/README.md).
+There can be practice items that require the learner to construct a solution as a digital application, a solution that ca be passed through an automated checking and grading system, as presented in [the "Validators and Checkers" section](../../../infrastructure/checkers/reading/read.md).
 
 ## Validation and Grading
 
@@ -47,7 +47,7 @@ The shorter feedback loop makes learners more engaged in learning as they don't 
 This promotes incremental progress regarding the drill's subject.
 
 1. It aids learners when studying independently.
-Connected to the previous item, the short feedback loop may introduce a gamification aspect to drills whereby learners feel rewarded (sometimes using [educational cryptocurrencies](../../../infrastructure/digital-rewards/reading/README.md)) for a good portion of their individual activities.
+Connected to the previous item, the short feedback loop may introduce a gamification aspect to drills whereby learners feel rewarded (sometimes using [educational cryptocurrencies](../../../infrastructure/digital-rewards/reading/read.md) for a good portion of their individual activities.
 
 ### Subcategories
 

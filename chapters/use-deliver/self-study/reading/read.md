@@ -32,7 +32,7 @@ A general example of the following structure is shown below or can be found [her
 
 ## Drills
 
-To improve the learning experience and for the learners to have a method to test their knowledge, [drills](../../../develop-organize/drills/reading/README.md) can be used.
+To improve the learning experience and for the learners to have a method to test their knowledge, [drills](../../../develop-organize/drills/reading/read.md) can be used.
 The best way is to use both types of drills and reference them in each subject.
 In this way, the learner will know in which order he should go through the material.
 Their difficulty should be in an appropriate way, starting from easy exercises and reaching the hard ones.

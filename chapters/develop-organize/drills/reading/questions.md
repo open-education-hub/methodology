@@ -50,7 +50,7 @@ Out of the existing teaching platforms, a few highlights are:
   It supports graded assignments, quizzes, storing teaching materials and many other educational activities.
 
 - [SmileyTutor (formerly called TutorWeb)](https://tutor-web.net/) is another free learning platform whose highlight is that it was built around the [SmileyCoin cryptocurrency](https://smileyco.in/) as a reward for completing drills and questions.
-  See more in [the "Digital Rewards" section](../../../infrastructure/digital-rewards/reading/README.md).
+  See more in [the "Digital Rewards" section](../../../infrastructure/digital-rewards/reading/read.md).
 
 - [`tech.io`](https://tech.io/) is another platform for presenting questions as quizzes.
   More simplistic than Moodle or SmileyTutor, it allows educators to easily create _playgrounds_, which are learning environments designed around specific subjects, made up of reading material, followed by practical exercises and questions.

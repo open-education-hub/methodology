@@ -1,4 +1,4 @@
-### Content
+# Content
 
 The content maintainer is responsible for overseeing different aspects of the open educational resource, like content management, accepting and reviewing contributions, or community building.
 
@@ -10,7 +10,7 @@ It is also recommended using a managed development platform like `GitHub` or `Gi
 The content should be published under a license.
 At `Open Education Hub` we employ the [`Creative Commons`](https://en.wikipedia.org/wiki/Creative_Commons_license) license ourselves and strongly recommend its usage.
 
-#### Contributions
+## Contributions
 
 The content maintainer should foster a welcoming environment for outside contributions.
 This can be achieved by:
@@ -35,7 +35,7 @@ This can be partially automated using linters and automated checkers, together w
 
 The maintainer should make sure that a decision for a contribution is taken in a reasonable time frame (approve, reject, request more changes, etc), so that the repository does not accumulate a large amount of lingering pull requests.
 
-#### Creating a repository
+## Creating a Repository
 
 If a new content repository needs to be created from scratch, a good starting point is to clone the [`oer-template`](https://github.com/open-education-hub/oer-template) repository.
 This repository contains the basic directory structure for a course, including some tools and other files that should typically be present, on top of which any kind of content can be added.

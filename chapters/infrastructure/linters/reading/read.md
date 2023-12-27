@@ -7,9 +7,9 @@ For example, a linting tool for code is different from a linting tool for text.
 
 ## Examples
 
-- [Super-linter](https://github.com/super-linter/super-linter) is a combination of various linters that can be used locally or in CI/CD pipelines.
-- [Markdownlint](https://github.com/igorshubovych/markdownlint-cli) is a linter for Markdown files.
-- [Spellchecker](https://github.com/marketplace/actions/github-spellcheck-action) is a linter for text for check spelling.
+- [`Super-Linter`](https://github.com/super-linter/super-linter) is a combination of various linters that can be used locally or in CI/CD pipelines.
+- [`markdownlint`](https://github.com/igorshubovych/markdownlint-cli) is a linter for Markdown files.
+- [`spellcheck`](https://github.com/marketplace/actions/github-spellcheck-action) is a linter for text for check spelling.
 
 All of these linters are available in the [actions](https://github.com/open-education-hub/actions) repository.
 
@@ -26,18 +26,18 @@ We are currently using some custom rules for Markdown files that can be found in
 
 There are multiples ways to run linters locally.
 
-`Super-linter` can be run locally inside a Docker container using this [script](https://gist.github.com/gabrielmocanu/9606cfd789e07b0a1650d0b349fd15f2).
+`Super-Linter` can be run locally inside a Docker container using this [script](https://gist.github.com/gabrielmocanu/9606cfd789e07b0a1650d0b349fd15f2).
 The script expects two arguments, the path to the codebase and the path to the linting rules.
 Linting rules are used because sometimes the linter might be too strict.
 Configuring these rules can ignore some errors that are not relevant for the project.
 The linting rules that we are currently using and recommending are inside the [actions](https://github.com/open-education-hub/actions/tree/main/super-linter/rules) repository.
 
 Another way of using linters locally is to check [supported linters](https://github.com/super-linter/super-linter#supported-linters) by `super-linter` and try to run them locally.
-[`Markdownlint`](https://github.com/igorshubovych/markdownlint-cli) is a good example.
+[`markdownlint`](https://github.com/igorshubovych/markdownlint-cli) is a good example.
 It's the linter used by `super-linter` for Markdown files.
 
 Of course, for some linters you can find a web solution that can run the linter without installing it locally.
-For example, on this [website](https://dlaa.me/markdownlint/) you can use `Markdownlint` by copy-pasting the content of the file you want to check.
+For example, on this [website](https://dlaa.me/markdownlint/) you can use `markdownlint` by copy-pasting the content of the file you want to check.
 
 ### Continuous Integration and Continuous Delivery
 

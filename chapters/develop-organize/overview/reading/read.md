@@ -1,4 +1,4 @@
-## Developing and Organizing Content
+# Developing and Organizing Content
 
 Developing educational content is an effort consuming activity.
 However, typically, formal education institutions from similar fields have similar curricula.
@@ -12,12 +12,12 @@ Finally, we present what are the best technological tools to create, present and
 
 The topics presented in this chapter are:
 
-- [Reading](../../reading/reading/README.md)
-- [Media](../../media/reading/README.md)
-- [Slides](../../slides/reading/README.md)
-- [Guides](../../guides/reading/README.md)
-- [Drills](../../drills/reading/README.md)
-- [Projects](../../projects/reading/README.md)
+- [Reading](../../reading/reading/read.md)
+- [Media](../../media/reading/read.md)
+- [Slides](../../slides/reading/read.md)
+- [Guides](../../guides/reading/read.md)
+- [Drills](../../drills/reading/read.md)
+- [Projects](../../projects/reading/read.md)
 
 To be compliant with the vision of the `OpenEdu` Methodology, and with the [5R characteristics](https://oercommons.org/) of `OER` (_Open Educational Resources_) (_retain, reuse, revise, remix, redistribute_), content will have the following properties:
 
@@ -74,4 +74,4 @@ For real-life use cases, visit the existing educational content repositories:
 - the [`ccas` repository](https://github.com/open-education-hub/ccas), rendered [here](https://open-education-hub.github.io/ccas/)
 - the [`binary-security` repository](https://github.com/open-education-hub/binary-security), rendered [here](https://open-education-hub.github.io/binary-security/)
 
-For a mapping between the content types and teaching activities visit the [Introduction](../../../landing-page/README.md) page.
+For a mapping between the content types and teaching activities visit the [Introduction](../../../landing-page/read.md) page.
