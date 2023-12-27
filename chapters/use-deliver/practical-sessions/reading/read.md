@@ -1,4 +1,4 @@
-### Practical Sessions
+# Practical Sessions
 
 Practical sessions are represented by hands-on activities that learners perform in order to acquire experience.
 These activities are typically supervised by an educator who proposes the practical exercises and evaluates the learner's performance.
@@ -24,9 +24,9 @@ At the same time, they should be usable in the absence of an educator as standal
 A practical session comprises of a series of topics that the learner must assimilate.
 A topic must contain:
 
-- a brief theoretical description (which may contain links to broader explanations) by using [reading content](../../../develop-organize/reading/reading/README.md), [media](../../../develop-organize/media/reading/README.md), and, potentially, [slides](../../../develop-organize/slides/reading/README.md) materials
-- one or more practical exemplifications of the described topic with demos from [guides](../../../develop-organize/guides/reading/README.md)
-- one or more tutorials from [guides](../../../develop-organize/guides/reading/README.md) content, where the learner makes the first steps in applying the described topic
+- a brief theoretical description (which may contain links to broader explanations) by using [reading content](../../../develop-organize/reading/reading/read.md), [media](../../../develop-organize/media/reading/read.md), and, potentially, [slides](../../../develop-organize/slides/reading/read.md) materials
+- one or more practical exemplifications of the described topic with demos from [guides](../../../develop-organize/guides/reading/read.md)
+- one or more tutorials from [guides](../../../develop-organize/guides/reading/read.md) content, where the learner makes the first steps in applying the described topic
 - one or more quizzes from [questions](../../../develop-organize/drills/reading/questions.md) regarding some aspects of what has been presented so far
 - one or more [tasks](../../../develop-organize/drills/reading/tasks.md) where the learner applies the presented topic
 
@@ -38,7 +38,7 @@ To avoid that, questions, tasks and tutorials may be sprinkled throughout the to
 Ideally, each practical activity (tutorial, question, task) should be automatically evaluated and feedback should be instantly generated.
 Depending on the activity type, the difficulty of achieving this might vary.
 A question, for instance, is easy to grade automatically, by its very design.
-However, most practical sessions probably do not consist solely of questions, but include more complex activites, such as tasks.
+However, most practical sessions probably do not consist solely of questions, but include more complex activities, such as tasks.
 A task can be verified automatically in some cases (for example a programming task that has an automated checker), while in other cases it might be very hard to do so (for example in a math proof or an essay).
 
 The number of topics and the ordering in which the topics are presented in a practical session is highly dependent on the nature of the field of study and the preference of the educator.

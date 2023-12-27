@@ -9,7 +9,7 @@ Regarding content, an ideal exam must have:
 
   An ideal exam should ensure that all subjects studied have an equal chance of being included.
   It should essentially mirror the content repository.
-  For example, theoretical components might be drawn from sources like [drills](../../../develop-organize/drills/reading/README.md), [reading material](../../../develop-organize/reading/reading/README.md), or [slides](../../../develop-organize/slides/reading/README.md), while practical, hands-on elements, could be inspired by [assignments](../../../use-deliver/assignments/reading/README.md) and [guides](../../../develop-organize/guides/reading/README.md).
+  For example, theoretical components might be drawn from sources like [drills](../../../develop-organize/drills/reading/read.md), [reading material](../../../develop-organize/reading/reading/read.md), or [slides](../../../develop-organize/slides/reading/read.md), while practical, hands-on elements, could be inspired by [assignments](../../../use-deliver/assignments/reading/read.md) and [guides](../../../develop-organize/guides/reading/read.md).
 
 - **good difficulty coverage**
 
@@ -51,9 +51,10 @@ Examinations can take various forms, including:
 
 - **Practical Tests** revolve around real-world problem-solving and skill demonstration.
   They are most suitable for disciplines that emphasize hands-on learning and seek quantifiable outcomes.
-  In comparison to multiple-choice tests which extend from [questions](../../../develop-organize/drills/reading/questions.md), practical tests are built on top of [guides](../../../develop-organize/guides/reading/README.md) and [tasks](../../../develop-organize/drills/reading/tasks.md).
+  In comparison to multiple-choice tests which extend from [questions](../../../develop-organize/drills/reading/questions.md), practical tests are built on top of [guides](../../../develop-organize/guides/reading/read.md) and [tasks](../../../develop-organize/drills/reading/tasks.md).
   Their purpose is to handle various tasks, whether demonstrated earlier, similar in nature, or involving combinations, all without guidance.
   These tests require dedicated equipment for the learner (laptops, lab equipment, substances etc.).
 
-The mentioned forms are not exhaustive for the exam; they can also be combined to comprehensively address the subject's content.
+The mentioned forms are not exhaustive for the exam;
+they can also be combined to comprehensively address the subject's content.
 This approach provides a flexible method of assessment and may be particularly suitable for subjects with diverse forms of teaching, for example subjects that correlate both theoretical and practical concepts.

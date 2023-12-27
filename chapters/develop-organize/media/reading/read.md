@@ -1,4 +1,4 @@
-### Media
+# Media
 
 The media content type refers to audio, visual or audiovisual educational materials.
 Images, videos, audio files, educational video games represent examples of such content.
@@ -11,7 +11,7 @@ When developing media items, it is important to follow the guidelines below:
 - use an open source or free development tool
 - store both the output (the actual image, video etc.) and the editable building blocks
 
-#### Images
+## Images
 
 For the creation of images and diagrams we use [`draw.io`](httpts://draw.io).
 `draw.io` is a free, easy to use tool that offers a variety of useful icons and building blocks.
@@ -24,7 +24,7 @@ Note that other tools for the generation of images may be used as long as they a
 One particular type of image is a screenshot.
 Screenshots are not editable and need to be retaken if a modification is necessary.
 
-#### Audio-video Recordings
+## Audio-video Recordings
 
 Audio or video content is by its nature hard to modify.
 Typically, if a video/audio recording requires alterations, it is re-recorded.
@@ -38,7 +38,7 @@ This sort of video is useful for educational material that presents processes or
 To create such videos, we need to first create the images and then bundle them up using [`ffmpeg`](https://ffmpeg.org/).
 In this situation the image source files, the actual images and the video need to be stored in the content repository.
 
-#### Interactive Applications
+## Interactive Applications
 
 Some educational scenarios involve the learner to interact with a specific application.
 The application can be a video game, a web page or even a simple computer program that simulates a given context.

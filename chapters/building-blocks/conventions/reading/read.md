@@ -1,4 +1,4 @@
-### Conventions
+# Conventions
 
 Owner: Răzvan Deaconescu
 Reviewer: Alex Apostolescu

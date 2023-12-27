@@ -2,8 +2,8 @@
 
 Projects are practice items that are larger in scope and require extensive time, effort and resources to complete.
 The main goal of projects is to present intense challenges to learners, and, therefore, increase their skills and knowledge.
-When compared to [drills](../../drills/reading/README.md), projects aim to present a comprehensive narrative that can be divided into smaller, coherent steps.
-Projects are mainly used as content for [assignments](../../../use-deliver/assignments/reading/README.md).
+When compared to [drills](../../drills/reading/read.md), projects aim to present a comprehensive narrative that can be divided into smaller, coherent steps.
+Projects are mainly used as content for [assignments](../../../use-deliver/assignments/reading/read.md).
 
 Typically, a project consists of a statement, support files and, where possible, validators / checkers.
 The statement presents the context, goals, resources, and useful references.
@@ -70,7 +70,7 @@ Typically kept in a separate directory, named `utility/` in our case, these file
 Instead, they handle the meta aspects of the solution, focusing on consistency.
 This includes tasks like line or word counts, grammar checks, and maintaining the structure of write-ups.
 
-These programs have a broad scope and are often readily accessible online as third-party tools, as presented in the ["Support Infrastructure" section](../../../infrastructure/overview/reading/README.md).
+These programs have a broad scope and are often readily accessible online as third-party tools, as presented in the ["Support Infrastructure" section](../../../infrastructure/overview/reading/read.md).
 These tools are crafted for easy deployment without intricate configurations.
 However, for tailored use-cases, they provide a "control panel" in the form of a configuration file, usually in formats such as `.yml` or `.json`.
 

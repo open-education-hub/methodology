@@ -1,4 +1,4 @@
-## Curating and Maintaining Content
+# Curating and Maintaining Content
 
 Owner: Răzvan Deaconescu
 Reviewer: Adrian Șendroiu
@@ -8,6 +8,6 @@ Present responsibilities of content maintainers and guidelines regarding content
 
 Sections:
 
-- [Content](../../content/reading/README.md)
-- [Communication](../../communication/reading/README.md)
-- [Community](../../community/reading/README.md)
+- [Content](../../content/reading/read.md)
+- [Communication](../../communication/reading/read.md)
+- [Community](../../community/reading/read.md)

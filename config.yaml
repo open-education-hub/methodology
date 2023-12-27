@@ -12,69 +12,126 @@ docusaurus:
     course_name: OpenEdu Methodology
     sidebar: js
     structure:
-      - Introduction: chapters/landing-page/README.md
+      - Introduction: chapters/landing-page/read.md
       - Building Blocks:
-          path: chapters/building-blocks/
-          subsections:
-            - Overview/: overview/reading/
-            - Conventions/: conventions/reading/
+          - Overview:
+              path: chapters/building-blocks/overview
+              subsections:
+                - Reading: reading/read.md
+          - Conventions:
+              path: chapters/building-blocks/conventions
+              subsections:
+                - Reading: reading/read.md
       - Roles:
-          path: chapters/roles/
-          subsections:
-            - Overview/: overview/reading/
+          - Overview:
+              path: chapters/roles/overview
+              subsections:
+                - Reading: reading/read.md
       - Support Infrastructure:
-          path: chapters/infrastructure/
-          subsections:
-            - Overview/: overview/reading/
-            - Collaboration/: collaboration/reading/
-            - Processing/: processing/reading/
-            - Checkers/: checkers/reading/
-            - Linters/: linters/reading/
-            - Digital Rewards:
-                path: digital-rewards/
-                extra:
-                  - media/
-                subsections:
-                  - Overview/: reading/
+          - Overview:
+              path: chapters/infrastructure/overview
+              subsections:
+                - Reading: reading/read.md
+          - Collaboration:
+              path: chapters/infrastructure/collaboration
+              subsections:
+                - Reading: reading/read.md
+          - Processing:
+              path: chapters/infrastructure/processing
+              subsections:
+                - Reading: reading/read.md
+          - Checkers:
+              path: chapters/infrastructure/checkers
+              subsections:
+                - Reading: reading/read.md
+          - Linters:
+              path: chapters/infrastructure/linters
+              subsections:
+                - Reading: reading/read.md
+          - Digital Rewards:
+              path: chapters/infrastructure/digital-rewards
+              extra:
+                - media/
+              subsections:
+                - Reading: reading/read.md
       - Developing and Organizing Content:
-          path: chapters/develop-organize/
-          subsections:
-            - Overview/: overview/reading/
-            - Reading/: reading/reading/
-            - Media/: media/reading/
-            - Slides/: slides/reading/
-            - Guides/: guides/reading/
-            - Drills:
-                path: drills/
-                extra:
-                  - media/
-                subsections:
-                  - Overview/: reading/
-                  - Questions: reading/questions.md
-                  - Tasks: reading/tasks.md
-            - Projects:
-                path: projects/
-                extra:
-                  - media/
-                subsections:
-                  - Overview/: reading/
-                  - Guide: reading/guide.md
+          - Overview:
+              path: chapters/develop-organize/overview
+              subsections:
+                - Reading: reading/read.md
+          - Reading:
+              path: chapters/develop-organize/reading
+              subsections:
+                - Reading: reading/read.md
+          - Media:
+              path: chapters/develop-organize/media
+              subsections:
+                - Reading: reading/read.md
+          - Slides:
+              path: chapters/develop-organize/slides
+              subsections:
+                - Reading: reading/read.md
+          - Guides:
+              path: chapters/develop-organize/guides
+              subsections:
+                - Reading: reading/read.md
+          - Drills:
+              path: chapters/develop-organize/drills
+              extra:
+                - media/
+              subsections:
+                - Reading: reading/read.md
+                - Questions: reading/questions.md
+                - Tasks: reading/tasks.md
+          - Projects:
+              path: chapters/develop-organize/projects
+              extra:
+                - media/
+              subsections:
+                - Reading: reading/read.md
+                - Guide: reading/guide.md
       - Using and Delivering Content:
-          path: chapters/use-deliver/
-          subsections:
-            - Overview/: overview/reading/
-            - Lectures/: lectures/reading/
-            - Practical Sessions/: practical-sessions/reading/
-            - Assignments/: assignments/reading/
-            - Tests/: tests/reading/
-            - Self-study/: self-study/reading/
+          - Overview:
+              path: chapters/use-deliver/overview
+              subsections:
+                - Reading: reading/read.md
+          - Lectures:
+              path: chapters/use-deliver/lectures
+              subsections:
+                - Reading: reading/read.md
+          - Practical Sessions:
+              path: chapters/use-deliver/practical-sessions
+              subsections:
+                - Reading: reading/read.md
+          - Assignments:
+              path: chapters/use-deliver/assignments
+              subsections:
+                - Reading: reading/read.md
+          - Tests:
+              path: chapters/use-deliver/tests
+              subsections:
+                - Reading: reading/read.md
+          - Self-study:
+              path: chapters/use-deliver/self-study
+              subsections:
+                - Reading: reading/read.md
       - Curating and Maintaining Content:
-          path: chapters/curate-maintain/
-          subsections:
-            - Overview/: overview/reading/
-            - Content/: content/reading/
-            - Communication/: communication/reading/
-            - Community/: community/reading/
+          - Overview:
+              path: chapters/curate-maintain/overview
+              subsections:
+                - Reading: reading/read.md
+          - Content:
+              path: chapters/curate-maintain/content
+              subsections:
+                - Reading: reading/read.md
+          - Communication:
+              path: chapters/curate-maintain/communication
+              subsections:
+                - Reading: reading/read.md
+          - Community:
+              path: chapters/curate-maintain/community
+              subsections:
+                - Reading: reading/read.md
     config_meta:
       title: Open Education Hub Methodology
       url: http://localhost/
