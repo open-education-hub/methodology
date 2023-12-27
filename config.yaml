@@ -30,7 +30,12 @@ docusaurus:
             - Processing/: processing/reading/
             - Checkers/: checkers/reading/
             - Linters/: linters/reading/
-            - Digital Rewards/: digital-rewards/reading/
+            - Digital Rewards:
+                path: digital-rewards/reading/
+                extra:
+                  - ../media/
+                subsections:
+                  - Overview: README.md
       - Developing and Organizing Content:
           path: chapters/develop-organize/
           subsections:
