@@ -1,0 +1,48 @@
+topic/building-blocks:
+  - chapters/bulding-blocks/**/*
+
+topic/roles:
+  - chapters/roles/**/*
+
+topic/infrastucture:
+  - chapters/infrastructure/**/*
+
+topic/develop-organize:
+  - chapters/develop-organize/**/*
+
+topic/use-deliver:
+  - chapters/use-deliver/**/*
+
+topic/curate-maintain:
+  - chapters/curate-maintain/**/*
+
+area/reading:
+  - '**/reading/*'
+  - '**/reading/**/*'
+
+area/media:
+  - '**/media/*'
+  - '**/media/**/*'
+
+area/slides:
+  - '**/slides/*'
+  - '**/slides/**/*'
+
+area/guides:
+  - '**/guides/*'
+  - '**/guides/**/*'
+
+area/drills:
+  - '**/drills/*'
+  - '**/drills/**/*'
+
+area/projects:
+  - '**/projects/*'
+  - '**/projects/**/*'
+
+area/infra:
+  - 'scripts/**/*'
+  - '.github/**/*'
+  - 'Dockerfile'
+  - 'Makefile'
+  - 'config.yaml'
