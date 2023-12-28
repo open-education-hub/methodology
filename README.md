@@ -1,5 +1,13 @@
 # `OpenEdu` Methodology Repository
 
+[![copying.md](https://img.shields.io/static/v1?label=license&message=CCBY-SA4.0&color=%23385177)](https://github.com/open-education-hub/methodology/blob/master/COPYING.md)
+[![copying.md](https://img.shields.io/static/v1?label=license&message=BSD-3-clause&color=%23385177)](https://github.com/open-education-hub/methodology/blob/master/COPYING.md)
+[![discord](https://img.shields.io/badge/users-93-7589D0?logo=discord)](www.bit.ly/OpenEduHub)
+[![contributors](https://img.shields.io/github/contributors/open-education-hub/methodology)](https://github.com/open-education-hub/methodology/graphs/contributors)
+[![reddit](https://img.shields.io/reddit/subreddit-subscribers/OpenEducationHub?style=social)](https://www.reddit.com/r/OpenEducationHub/)
+[![twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FOpenEduHub)](https://twitter.com/OpenEduHub)
+[![youtube](https://img.shields.io/youtube/channel/views/UCumS6d-kaVXreY46eZLtEvA?style=social)](https://www.youtube.com/@OpenEduHub/)
+
 The Open Education Hub methodology presents the resources and guides to developing, using and maintaining digital educational content repositories.
 The methodology is anchored in the use of the open source development model and in developing open educational resources (OER).
 These are open educational resources ([OER](https://en.wikipedia.org/wiki/Open_educational_resources)).
