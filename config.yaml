@@ -25,6 +25,8 @@ docusaurus:
       - Roles:
           - Overview:
               path: chapters/roles/overview
+              extra:
+                - media/
               subsections:
                 - Reading: reading/read.md
       - Support Infrastructure:
