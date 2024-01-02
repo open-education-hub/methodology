@@ -5,7 +5,7 @@ The content curator is responsible for overseeing different aspects of the open 
 It is important for such a resource to clearly identify who the curator is, for the purpose of transparency and good communication.
 
 The content is typically organized in a versioned system control repository such as `Git`, which has a series of advantages like version control, branching, history, etc.
-It is also recommended using a managed development platform like `GitHub` or `GitLab`, which is built on top of `Git`, while also providing additional useful features, like code review, issues, pull requests, workflows, and others.
+It is also recommended using a managed development platform like `GitHub` or `GitLab`, which are built on top of `Git`, while also providing additional useful features, like code review, issues, pull requests, workflows, and others.
 
 The content should be published under a license.
 At `Open Education Hub` we employ the [`Creative Commons`](https://en.wikipedia.org/wiki/Creative_Commons_license) license ourselves and strongly recommend its usage.

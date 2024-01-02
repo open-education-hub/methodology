@@ -12,7 +12,7 @@ Communication considers different groups, as highlighted in the ["Collaboration"
 For the public communication and internal communication scenarios, we strongly advise the use of the [Open Education Hub Discord server](https://bit.ly/OpenEduHub).
 The content curator will be provided full ownership on the communication channels, with the ability to add members to internal communication channels.
 
-It is also the responsibility of the content curator to organize periodic internal meeting and provide an overall direction and priorities of the community.
+It is also the responsibility of the content curator to organize periodic internal meetings and provide an overall direction and priorities of the community.
 We advise such meetings to take place once every 6 months, as they generally fit the semester calendar in universities.
 More meetings could happen if required or if deemed useful.
 
